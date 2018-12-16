@@ -1,0 +1,88 @@
+@import 'form';
+@import 'froala_editor.min.css';
+@import 'froala_style.min.css';
+@import 'plugins/char_counter.min.css';
+@import 'plugins/code_view.min.css';
+@import 'plugins/colors.min.css';
+@import 'plugins/emoticons.min.css';
+@import 'plugins/file.min.css';
+@import 'plugins/fullscreen.min.css';
+@import 'plugins/help.min.css';
+@import 'plugins/image_manager.min.css';
+@import 'plugins/image.min.css';
+@import 'plugins/line_breaker.min.css';
+@import 'plugins/quick_insert.min.css';
+@import 'plugins/special_characters.min.css';
+@import 'plugins/table.min.css';
+@import 'plugins/video.min.css';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'third_party/spell_checker.min.css';
+// @import 'languages/ja.css'; これを入れるとerrorになる
+// @import 'third_party/embedly.min.css'; embedlyは最近になってapikeyを有料で取得しなければならなくなった http://embed.ly/pricing
+
+header {
+  background: white;
+  height:80px;
+  width: 100%;
+}
+
+header div.header{
+	font-size: 3em;
+	font-style: italic;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+header span{
+	font-size: 15px;
+	font-style: italic;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: gray;
+}
+
+.fa-pencil-square-o:before{
+  content: "\f044";
+  font-family: FontAwesome;
+  bottom: 0%;
+  font-size: 1em;
+  width: 1.25em;
+  color: gray;
+}
+
+.fa-home:before{
+  content: "\f015";
+  font-family: FontAwesome;
+  top: 10%;
+  font-size: 2em; // 24px
+  text-align: center;
+  width: 1.25em; // 20px
+  color: #000000;
+}
+
+.fa-child{
+  font-size: 2em;
+  color: #000000
+}
+
+.fa-code{
+  font-size: 2em;
+  color: #000000
+}
+
+.fa-columns{
+  font-size: 2em;
+  color: #4169e1;
+}
+
+.fa-heart{
+  font-size: 2em;
+  color: #dc143c;
+}
+
+.fa-comments-o{
+  font-size: 2em;
+  color: #008080;
+}
+

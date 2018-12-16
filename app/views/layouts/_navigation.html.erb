@@ -1,0 +1,53 @@
+<header>
+<div class="header">Dragon Arrow <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> written by Tatsuya Nakaji, all rights reserved<span></div>
+</header>
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">I love Froala-Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="fa fa-code" aria-hidden="true"> code</i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">cakePHP</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">PHP</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">swift</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">React Native</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Ruby On Rails</a>
+          </div>
+        </li>
+        <li><a href="#"><i class="fa fa-heart" aria-hidden="true"> lib</i></a></li>
+        <li><a href="#"><i class="fa fa-columns" aria-hidden="true"> works</i></a></li>
+        <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"> other</i></a></i>
+      </ul>
+    	<ul class="nav navbar-nav navbar-right">
+          <li><a href = <%= root_path %>><span class="fa fa-home"> home</span></a></li>
+          <% if signed_in? %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <i class="fa fa-child" aria-hidden="true"></i> Tatsuya
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <%= link_to '新規投稿', new_article_path, :class => "dropdown-item" %>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Signed in as: <%= current_user.email %></a>
+              <div class="dropdown-divider"></div>
+              <%= link_to 'ログアウト', sign_out_path, method: :delete, :class => "dropdown-item" %>
+            </div>
+          </li>
+          <% else %>
+          <li><a href="#"><i class="fa fa-child" aria-hidden="true"></i> ナポジン</a></li>
+          <% end %>
+    	</ul>
+    </div>
+  </div>
+</div>
