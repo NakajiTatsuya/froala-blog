@@ -4,6 +4,11 @@ class ArticlesController < ApplicationController
   before_action :hash_init, only: [:index, :new, :create, :edit]
   before_action :restrict_remote_ip, except: [:index, :show]
 
+  def tag
+    # INNER JOINするために joinsメソッド
+    # @articles = Article.joins(:tags).where(tags: {id: params[:id]})
+    @articles = Article.joins(:tags).merge(Tag.where(id: params[:id]))
+  end
 
   def index
     @articles = Article.all
@@ -55,6 +60,28 @@ class ArticlesController < ApplicationController
       flash[:alert] = "Error updating article!"
     end
   end
+
+  # def cakephp
+  #   tag = Tag.where('name=?', cakePHP)
+  #   @articles = tag.articles
+  #   render :index
+  # end
+
+  # def php
+  #   @articles = Article.where('Tag.name=?', 'php')
+  # end
+
+  # def swift
+  #   @articles = Article.where('Tag.name=?', 'swift')
+  # end
+
+  # def reactnative
+  #   @articles = Article.where('Tag.name=?', 'reactnative')
+  # end
+
+  # def rubyonrails
+  #   @articles = Article.where('Tag.name=?', 'rubyonrails')
+  # end
 
   private
 

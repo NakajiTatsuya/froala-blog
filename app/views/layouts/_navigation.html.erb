@@ -5,7 +5,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">I love Froala-Blog</a>
+      <a class="navbar-brand" href=<%= root_path %>>I love Froala-Blog</a>
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
@@ -14,15 +14,21 @@
             <i class="fa fa-code" aria-hidden="true"> code</i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">cakePHP</a>
+<!--             <a class="dropdown-item" href = "#">cakePHP</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">PHP</a>
+            <a class="dropdown-item" href = "#">PHP</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">swift</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">React Native</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Ruby On Rails</a>
+            <a class="dropdown-item" href="#">Ruby On Rails</a> -->
+            <% Tag.all.each do |tag| %>
+              <a class="dropdown-item" href=<%= manage_tag_path(id: tag.id) %>>
+                <%= tag.name %>
+                <div class="dropdown-divider"></div>
+              </a>
+            <% end %>
           </div>
         </li>
         <li><a href="#"><i class="fa fa-heart" aria-hidden="true"> lib</i></a></li>
