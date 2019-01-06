@@ -183,7 +183,6 @@ GEM
       loofah (~> 2.2, >= 2.2.2)
       rails_serve_static_assets
       rails_stdout_logging
-    rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.5)
@@ -279,7 +278,6 @@ DEPENDENCIES
   puma (~> 3.11)
   rack-attack
   rails (~> 5.2.1)
-  rails_12factor (= 0.0.2)
   rb-readline
   sass-rails
   selenium-webdriver
