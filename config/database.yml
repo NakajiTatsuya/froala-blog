@@ -21,11 +21,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: pg
-  database: db/production.pg
-
-production:
   <<: *default
+  adapter: postgresql
   database: dcecg56ne2o3up
   username: ENV['DATABASE_USER']
   password: ENV['DATABASE_PASSWORD']
