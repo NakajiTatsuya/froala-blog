@@ -24,6 +24,14 @@ production:
   adapter: pg
   database: db/production.pg
 
+production:
+  <<: *default
+  database: dcecg56ne2o3up
+  username: ENV['DATABASE_USER']
+  password: ENV['DATABASE_PASSWORD']
+  host: ec2-54-225-227-125.compute-1.amazonaws.com
+  port: 5432
+
 # Host
 # ec2-54-225-227-125.compute-1.amazonaws.com
 # Database
