@@ -21,6 +21,20 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  adapter: postgresql
-  database: mydatabase
+  adapter: pg
+  database: db/production.pg
+
+# Host
+# ec2-54-225-227-125.compute-1.amazonaws.com
+# Database
+# dcecg56ne2o3up
+# User
+# rxsaaflotljuxr
+# Port
+# 5432
+# Password
+# c9cd451564ba6a3ccfe341c00adebe48eea913ae15344d05917bdcc4f6da1c72
+# URI
+# postgres://rxsaaflotljuxr:c9cd451564ba6a3ccfe341c00adebe48eea913ae15344d05917bdcc4f6da1c72@ec2-54-225-227-125.compute-1.amazonaws.com:5432/dcecg56ne2o3up
+# Heroku CLI
+# heroku pg:psql postgresql-sinuous-86867 --app dragonarrow
