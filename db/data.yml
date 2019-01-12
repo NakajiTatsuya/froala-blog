@@ -2178,14 +2178,16 @@ users:
   - encrypted_password
   - confirmation_token
   - remember_token
+  - admin
   records: 
   - - 1
     - '2018-11-12 10:31:29.632268'
-    - '2019-01-07 08:46:38.893943'
+    - '2019-01-12 18:02:16.380010'
     - 111@gmail.com
     - "$2a$10$F9JN21m7DcxU73zigAUZ/uK/D.R/0I.jnNOR8cLlMPqo1dNdH8yy6"
     - 
-    - 8dfa414d08bf8df1e33e24bd296f781d9c96a2c4
+    - d78ce50ad07095b11e03efa585599dd20abb43bd
+    - false
   - - 2
     - '2018-11-14 07:16:52.497383'
     - '2018-11-14 07:35:57.745442'
@@ -2193,6 +2195,7 @@ users:
     - "$2a$10$FIWAqJ3VTvDV64ucUL5MJOmyDqeN2Rs97EXMqhLRG8K/zm4zPR.hG"
     - 
     - 33743a78da3fa331ec60e72cc4bac8ccb1d5d04a
+    - false
   - - 3
     - '2018-11-14 07:42:24.351138'
     - '2018-11-14 07:48:31.792020'
@@ -2200,3 +2203,12 @@ users:
     - "$2a$10$OUjBg1SQqtDKKbmrIDGFs.S5cumvKHIEHMq4lDLHmc8IGRwbYWk/O"
     - 
     - d3a2b6b7840a812552bf25667fd0afc42a45d977
+    - false
+  - - 4
+    - '2019-01-12 17:45:23.913503'
+    - '2019-01-12 17:52:45.887912'
+    - p111027t@mail.kyutech.jp
+    - "$2a$10$xtKG.vRRZtbCUUvo558.7.L6hapgkeYLhZVp.iKcT69bHBKfS.P5O"
+    - 
+    - e5bcd00ef35b3811e2f4ffffda99fe5156cd952f
+    - true
