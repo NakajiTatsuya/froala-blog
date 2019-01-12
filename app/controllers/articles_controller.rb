@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   before_action :find_article, only: [:edit, :update, :show, :destroy]
   before_action :require_login, except: [:index, :show, :tag]
   before_action :hash_init, only: [:index, :new, :create, :edit]
-  before_action :restrict_remote_ip, except: [:index, :show]
+  before_action :restrict_remote_ip, except: [:index, :show, :tag]
 
   def tag
     # INNER JOINするために joinsメソッド
