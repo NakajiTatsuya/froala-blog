@@ -1,8 +1,9 @@
 class ArticlesController < ApplicationController
   before_action :find_article, only: [:edit, :update, :show, :destroy]
-  before_action :require_login, except: [:index, :show, :tag]
+  before_action :require_login, only: [:create, :edit, :update, :destroy]
   before_action :hash_init, only: [:index, :new, :create, :edit]
-  before_action :restrict_remote_ip, except: [:index, :show, :tag]
+  # before_action :restrict_remote_ip, except: [:index, :show, :tag]
+  before_action :admin_user, only: [:create, :edit, :update, :destroy]
 
   def tag
     # INNER JOINするために joinsメソッド
@@ -109,12 +110,16 @@ class ArticlesController < ApplicationController
     @aws_data = FroalaEditorSDK::S3.data_hash(options)
   end
 
-  PERMIT_ADDRESSES = ['127.0.0.1', '::1', ENV["ip_address"]].freeze
-  def restrict_remote_ip
-    # ローカルか自分のipアドレス
-    unless PERMIT_ADDRESSES.include?(request.remote_ip)
-      render text: 'サービスが見つかりません', status: 503
-    end
+  # PERMIT_ADDRESSES = ['127.0.0.1', '::1', ENV["ip_address"]].freeze
+  # def restrict_remote_ip
+  #   # ローカルか自分のipアドレス
+  #   unless PERMIT_ADDRESSES.include?(request.remote_ip)
+  #     render text: 'サービスが見つかりません', status: 503
+  #   end
+  # end
+
+  def admin_user
+      redirect_to(root_url, alert: '不正なアクセスです') unless current_user.admin?
   end
 
 end
