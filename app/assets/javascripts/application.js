@@ -11,10 +11,10 @@
 // about supported directives.
 // require third_party/embedly.min.jsは最近 API_keyが必須になり http://embed.ly/pricing から有料で作らなければならない
 //
-//= require turbolinks
-//= require_tree .
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
+//= require_tree .
 //= require bootstrap-sprockets
 //= require froala_editor.min.js
 //= require plugins/align.min.js
