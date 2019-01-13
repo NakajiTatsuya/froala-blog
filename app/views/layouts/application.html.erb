@@ -5,6 +5,13 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <!-- DOMから取り除く -->
+    <style>
+      .fr-wrapper > div:first-child {
+        display: none;
+      }
+    </style>
+
     <!-- Froala WYSIWYG HTML Editor は jQuery(1.11.0以上) と Font Awesome 4.4.0..を使う -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
