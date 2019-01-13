@@ -25,6 +25,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'sass-rails'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'aws-sdk-s3', '~> 1', require: false
 gem "figaro"
 gem "froala-editor-sdk"
