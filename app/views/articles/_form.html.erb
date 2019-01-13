@@ -39,9 +39,19 @@
     <%= f.button :submit, "投稿", :class => 'btn btn-primary' %>
   </div>
 <% end %>
+<script>
+  window.onload=function() {
+    alert('remove copyrite');
+    var save=$('.fr-wrapper show-placeholder .fr-element fr-view').detach();
+    $('.fr-wrapper show-placeholder').empty().append(save);
+    var appendHtml="<div class='fr-element fr-view' dir='auto' contenteditable='true' ariadisabled='false' spellcheck='true'><p id='postCont'><br></p></div>"
+    $('.fr-wrapper.showplaceholder').empty().append(appendHtml);
+    $('.fr-wrapper.showplaceholder').children().hide();
+  }
+</script>
 
 <script>
-$(document).ready(function(){
+  $(function() {
   $('#wysiwyg').froalaEditor({
     language: 'ja',
     heightMin: 500,
