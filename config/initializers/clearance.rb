@@ -11,7 +11,7 @@ Clearance.configure do |config|
   config.password_strategy = Clearance::PasswordStrategies::BCrypt
   config.redirect_url = "/"
   config.rotate_csrf_on_sign_in = false
-  config.secure_cookie = false
+  config.secure_cookie = true
   config.sign_in_guards = []
   config.user_model = User
 end
