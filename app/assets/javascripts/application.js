@@ -47,7 +47,7 @@
 //= require plugins/url.min.js
 //= require plugins/video.min.js
 //= require activestorage
-
 //= require third_party/image_aviary.min.js
 //= require third_party/spell_checker.min.js
 //= require languages/ja.js
+//= require serviceworker-companion
