@@ -46,21 +46,21 @@
 3883; 0 15400736 TABLE DATA public articles_tags rxsaaflotljuxr
 3875; 0 15400635 TABLE DATA public schema_migrations rxsaaflotljuxr
 3885; 0 15400741 TABLE DATA public tags rxsaaflotljuxr
-3887; 0 15400752 TABLE DATA public users rxsaaflotljuxr
+;3887; 0 15400752 TABLE DATA public users rxsaaflotljuxr
 3900; 0 0 SEQUENCE SET public active_storage_attachments_id_seq rxsaaflotljuxr
 3901; 0 0 SEQUENCE SET public active_storage_blobs_id_seq rxsaaflotljuxr
 3902; 0 0 SEQUENCE SET public articles_id_seq rxsaaflotljuxr
 3903; 0 0 SEQUENCE SET public tags_id_seq rxsaaflotljuxr
-3904; 0 0 SEQUENCE SET public users_id_seq rxsaaflotljuxr
+;3904; 0 0 SEQUENCE SET public users_id_seq rxsaaflotljuxr
 3740; 2606 15400710 CONSTRAINT public active_storage_attachments active_storage_attachments_pkey rxsaaflotljuxr
 3744; 2606 15400723 CONSTRAINT public active_storage_blobs active_storage_blobs_pkey rxsaaflotljuxr
 3738; 2606 15400650 CONSTRAINT public ar_internal_metadata ar_internal_metadata_pkey rxsaaflotljuxr
 3747; 2606 15400735 CONSTRAINT public articles articles_pkey rxsaaflotljuxr
 3736; 2606 15400642 CONSTRAINT public schema_migrations schema_migrations_pkey rxsaaflotljuxr
 3749; 2606 15400749 CONSTRAINT public tags tags_pkey rxsaaflotljuxr
-3753; 2606 15400761 CONSTRAINT public users users_pkey rxsaaflotljuxr
+;3753; 2606 15400761 CONSTRAINT public users users_pkey rxsaaflotljuxr
 3741; 1259 15400711 INDEX public index_active_storage_attachments_on_blob_id rxsaaflotljuxr
 3742; 1259 15400712 INDEX public index_active_storage_attachments_uniqueness rxsaaflotljuxr
 3745; 1259 15400724 INDEX public index_active_storage_blobs_on_key rxsaaflotljuxr
-3750; 1259 15400762 INDEX public index_users_on_email rxsaaflotljuxr
-3751; 1259 15400763 INDEX public index_users_on_remember_token rxsaaflotljuxr
+;3750; 1259 15400762 INDEX public index_users_on_email rxsaaflotljuxr
+;3751; 1259 15400763 INDEX public index_users_on_remember_token rxsaaflotljuxr
