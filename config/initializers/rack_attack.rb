@@ -8,15 +8,15 @@ class Rack::Attack
 	# 	req.path == '/login' && req.post? && req.user_agent == 'BadUA'
 	# end
 
-	# Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-	# 	req.path == '/sign_in'
-	# end
+	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
+		req.path == '/signup' || req.path == '/users/sign_up' || req.path.start_with?("/users/password")
+	end
 	# ホワイトリスト設定
-	Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
-   '127.0.0.1' == req.ip || '::1' == req.ip || ENV["ip_address"] == req.ip
-    end
+	# Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
+ #   '127.0.0.1' == req.ip || '::1' == req.ip || ENV["ip_address"] == req.ip
+ #    end
 
-  # 同一IPアドレスからのリクエストを300回/分に制限
+  # 同一IPアドレスからのリクエストを60回/分に制限
 	Rack::Attack.throttle('req/ip', limit: 300, period: 5.minutes) do |req|
 	  req.ip
 	end

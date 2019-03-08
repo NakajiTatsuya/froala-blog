@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :find_article, only: [:edit, :update, :show, :destroy]
-  before_action :require_login, only: [:create, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:create, :edit, :update, :destroy]
   before_action :hash_init, only: [:index, :new, :create, :edit]
   # before_action :restrict_remote_ip, except: [:index, :show, :tag]
   before_action :admin_user, only: [:create, :edit, :update, :destroy]

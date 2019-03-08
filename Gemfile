@@ -20,7 +20,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'wysiwyg-rails', '~> 2.6.0'
-gem 'clearance'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'sass-rails'
@@ -31,13 +30,14 @@ gem "figaro"
 gem "froala-editor-sdk"
 gem 'rack-attack'
 gem 'rb-readline'
+gem 'devise'
 gem 'yaml_db'
 gem 'serviceworker-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'sqlite3'
+  gem 'pg',             '1.1.3'
 end
 
 group :development do

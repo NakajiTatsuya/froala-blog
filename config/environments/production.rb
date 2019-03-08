@@ -70,7 +70,7 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :user_name => ENV['username'],
+    :user_name => ENV['user_name'],
     :password => ENV['password'],
     :address => 'smtp.mailtrap.io',
     :domain => 'smtp.mailtrap.io',

@@ -16,7 +16,7 @@
         <%= link_to "READ MORE", article_path(article) %>
       </div>
       <!-- This block is available to only signed in users -->
-      <% if signed_in? && current_user.admin? %>
+      <% if user_signed_in? %>
         <%= link_to "Show", article_path(article), class: "btn btn-primary" %>
         <%= link_to "Edit", edit_article_path(article), class: "btn btn-default" %>
         <%= link_to "Delete", article_path(article), class: "btn btn-danger", data: {:confirm => "削除してもよろしいですか?"}, method: :delete %>
