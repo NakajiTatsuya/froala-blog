@@ -12,9 +12,9 @@ class Rack::Attack
 		req.path == '/signup' || req.path == '/users/sign_up' || req.path.start_with?("/users/password")
 	end
 	# ホワイトリスト設定
-	# Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
- #   '127.0.0.1' == req.ip || '::1' == req.ip || ENV["ip_address"] == req.ip
- #    end
+	Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
+   '127.0.0.1' == req.ip || '::1' == req.ip || ENV["ip_address"] == req.ip
+    end
 
   # 同一IPアドレスからのリクエストを60回/分に制限
 	Rack::Attack.throttle('req/ip', limit: 300, period: 5.minutes) do |req|
