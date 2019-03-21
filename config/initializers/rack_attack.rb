@@ -8,9 +8,9 @@ class Rack::Attack
 	# 	req.path == '/login' && req.post? && req.user_agent == 'BadUA'
 	# end
 
-	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-		req.path == '/signup' || req.path == '/users/sign_up'
-	end
+	# Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
+	# 	req.path == '/signup' || req.path == '/users/sign_up' || req.path.start_with?("/users/password")
+	# end
 	# ホワイトリスト設定
 	# Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
  #   '127.0.0.1' == req.ip || '::1' == req.ip || ENV["ip_address"] == req.ip
