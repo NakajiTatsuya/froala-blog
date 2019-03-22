@@ -13,7 +13,16 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- google_analytics -->
     <%= analytics_init if Rails.env.production? %>
+    <!-- google adsense -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4599354544848343",
+        enable_page_level_ads: true
+      });
+    </script>
 
     <link rel="manifest" href="/manifest.json" />
     <%= favicon_link_tag('favicon.ico') %>
