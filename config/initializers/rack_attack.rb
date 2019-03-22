@@ -9,16 +9,9 @@ class Rack::Attack
 	# end
 
 	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-		req.path == '/signup'  && (ENV["ip_address"] != req.ip)
+		(req.path == '/signup' || req.path == '/users/sign_up' || req.path.start_with?("/users/password"))  && (ENV["ip_address"] != req.ip)
 	end
 
-	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-		req.path == '/users/sign_up' && (ENV["ip_address"] != req.ip)
-	end
-
-	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-		req.path.start_with?("/users/password") && (ENV["ip_address"] != req.ip)
-	end
 	# ホワイトリスト設定
 	Rack::Attack.safelist('ローカルホストと自分を許可') do |req|
    ('127.0.0.1' == req.ip) || ('::1' == req.ip) || (ENV["ip_address"] == req.ip)
