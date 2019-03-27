@@ -9,7 +9,7 @@ class Rack::Attack
 	# end
 
 	Rack::Attack.blocklist('自分以外は認証画面拒否') do |req|
-		(req.path == '/signup' || req.path == '/users/sign_up' || req.path.start_with?("/users/password"))  && (ENV["ip_address"] != req.ip)
+		(req.path == '/signup' || req.path == '/login' || req.path == '/users/sign_up' || req.path.start_with?("/users/password"))  && (ENV["ip_address"] != req.ip)
 	end
 
 	# ホワイトリスト設定
