@@ -8,8 +8,8 @@ default: &default
   adapter: postgresql
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: nakajitatsuya
-  password: pass
+  username: <%= Rails.application.credentials.db[:username] %>
+  password: <%= Rails.application.credentials.db[:password] %>
   host: localhost
   timeout: 5000
 
@@ -26,4 +26,4 @@ test:
 
 production:
   <<: *default
-  database: dragonarrow_production
+  database: <%= Rails.application.credentials.db[:database] %>
