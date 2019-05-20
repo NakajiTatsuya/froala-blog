@@ -104,8 +104,8 @@ class ArticlesController < ApplicationController
       region: 'ap-northeast-1',
       keyStart: 'uploads/',
       acl: 'public-read',
-      accessKey: ENV["aws_access_key_id"],
-      secretKey: ENV["aws_secret_access_key"],
+      accessKey: Rails.application.credentials.dig(:aws, :access_key_id),
+      secretKey: Rails.application.credentials.dig(:aws, :secret_access_key),
     }
     @aws_data = FroalaEditorSDK::S3.data_hash(options)
   end
