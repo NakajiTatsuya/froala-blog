@@ -86,4 +86,6 @@ header span{
   font-size: 2em;
   color: #008080;
 }
+li.dropdown:hover {background:#ff1493;} /*カーソルが乗っているリンクの色*/
+div.dropdown-menu a:hover {color:#ffffff; background:#ff1493;} /*カーソルが乗っているリンクの色*/
 

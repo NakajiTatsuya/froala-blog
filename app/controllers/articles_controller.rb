@@ -13,6 +13,7 @@ class ArticlesController < ApplicationController
 
   def index
     @articles = Article.all
+    # @tags = Tag.select('tags.*', 'count(articles.id) AS acs').left_joins(:articles).group('tags.id').order('acs desc').limit(5)
   end
 
   def new
