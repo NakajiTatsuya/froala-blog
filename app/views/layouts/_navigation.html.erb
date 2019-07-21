@@ -1,5 +1,5 @@
 <header>
-<div class="header">Dragon Arrow <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> written by Tatsuya Nakaji, all rights reserved<span></div>
+<div class="header">Dragon Arrow <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> written by Tatsuya Nakaji, all rights reserved<span><img id="red_dragon" src="https://www.animatedimages.org/data/media/188/animated-dragon-image-0164.gif" border="0" height="50" alt="animated-dragon-image-0164" /></div>
 </header>
 <div class="navbar navbar-default">
   <div class="container-fluid">
@@ -14,16 +14,7 @@
             <i class="fa fa-code" aria-hidden="true"> code</i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-<!--             <a class="dropdown-item" href = "#">cakePHP</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href = "#">PHP</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">swift</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">React Native</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Ruby On Rails</a> -->
-            <% Tag.all.each do |tag| %>
+            <% Tag.select('tags.*', 'count(articles.id) AS acs').left_joins(:articles).group('tags.id').order('acs desc').each do |tag| %>
               <a class="dropdown-item" href=<%= manage_tag_path(id: tag.id) %>>
                 <%= tag.name %>
                 <div class="dropdown-divider"></div>
@@ -51,9 +42,24 @@
             </div>
           </li>
           <% else %>
-          <li><a href="#"><i class="fa fa-child" aria-hidden="true"></i> ナポジン</a></li>
+          <!-- <li><a href="#"><i class="fa fa-child" aria-hidden="true"></i> ナポジン</a></li> -->
+          <li><a><img id="my_image" src="https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0001.gif" height="30" border="0" alt="animated-dinosaur-image-0001" /> Tatsuya</a></li>
           <% end %>
       </ul>
     </div>
   </div>
 </div>
+
+<script>
+  $('#red_dragon').on({
+    'click': function(){
+        alert("</>code をクリックしてタグ検索!");
+    }
+  });
+  $('#my_image').on({
+    'click': function(){
+        $('#my_image').attr('src','https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0012.gif');
+        alert("食べないでー！");
+    }
+  });
+</script>
