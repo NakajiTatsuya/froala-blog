@@ -22,10 +22,37 @@
 @import 'third_party/spell_checker.min.css';
 // @import 'third_party/embedly.min.css'; embedlyは最近になってapikeyを有料で取得しなければならなくなった http://embed.ly/pricing
 
-header {
-  background: white;
-  height:80px;
-  width: 100%;
+@media screen and (max-width:480px) { 
+  header {
+    background-color: white;
+    height:80px;
+    width: 100%;
+    position: relative;
+    display: none;
+  }
+  .automatic_adjustment {
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown-menu > li:first-child {
+   margin-top: 15px;
+  }
+  .dropdown-menu > li {
+     margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width:481px) { 
+  header {
+    background-color: white;
+    height:80px;
+    width: 100%;
+    position: relative;
+  }
+  .automatic_adjustment {
+    width: 30%;
+    height: 30%;
+  }
 }
 
 header div.header{
@@ -87,6 +114,8 @@ header span{
   color: #008080;
 }
 
-li.dropdown:hover {background:#CCFFFF;} /*カーソルが乗っているリンクの色*/
-div.dropdown-menu a:hover {color:#ffffff; background:#ff1493;} /*カーソルが乗っているリンクの色*/
-
+li.dropdown:hover {background:#7fffd4;}
+ul.dropdown-menu a:link {color:#000000 !important;}
+ul.dropdown-menu a:visited {color:#696969 !important;}
+ul.dropdown-menu a:hover {background:#7fffd4 !important;}
+ul.dropdown-menu a:active {color:#8b0000 !important;}

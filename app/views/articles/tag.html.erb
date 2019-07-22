@@ -5,7 +5,7 @@
       <div class="text-center">
         <h2><%= article.title %></h2>
         <% if article.image.attached? %>
-          <%= image_tag article.image, :alt => "イメージ", width: '30%', height: '30%' %>
+          <%= image_tag article.image, :alt => "イメージ", :class => "automatic_adjustment" %>
         <% end %>
         <h6><%= article.created_at.strftime('%b %d, %Y') %></h6>
       </div>
