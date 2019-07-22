@@ -1,6 +1,4 @@
-<header>
-<div class="header">Dragon Arrow <span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> written by Tatsuya Nakaji, all rights reserved<span><img id="red_dragon" src="https://www.animatedimages.org/data/media/188/animated-dragon-image-0164.gif" border="0" height="50" alt="animated-dragon-image-0164" /></div>
-</header>
+<%= render "layouts/header" %>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -30,24 +28,26 @@
         <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"> other</i></a></i>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href = <%= root_path %>><span class="fa fa-home"> home</span></a></li>
-        <% if user_signed_in? %>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        <i class="fa fa-child" aria-hidden="true"></i> Tatsuya
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <%= link_to '新規投稿', new_article_path, :class => "dropdown-item" %>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Signed in as: <%= current_user.email %></a>
-        <div class="dropdown-divider"></div>
-        <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, :class => "dropdown-item" %>
-        </div>
+          <% if user_signed_in? %>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="fa fa-child" aria-hidden="true"></i> Tatsuya
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation">
+              <%= link_to '新規投稿', new_article_path, :class => "dropdown-item" %>
+            </li>
+            <li role="presentation">
+              <a class="dropdown-item" href="#">Signed in as: <%= current_user.email %></a>
+            </li>
+            <li role="presentation">
+              <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, :class => "dropdown-item" %>
+            </li>
+          </ul>
+          <% else %>
+            <li><a id="triger"><img id="dinasor" src="https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0001.gif" height="30" border="0" alt="animated-dinosaur-image-0001" /> Tatsuya</a></li>
+          <% end %>
         </li>
-        <% else %>
-        <!-- <li><a href="#"><i class="fa fa-child" aria-hidden="true"></i> ナポジン</a></li> -->
-        <li><a><img id="my_image" src="https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0001.gif" height="30" border="0" alt="animated-dinosaur-image-0001" /> Tatsuya</a></li>
-        <% end %>
       </ul>
     </div>
   </div>
@@ -59,9 +59,9 @@
         alert("</>code をクリックしてタグ検索!");
     }
   });
-  $('#my_image').on({
+  $('#triger').on({
     'click': function(){
-        $('#my_image').attr('src','https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0012.gif');
+        $('#dinasor').attr('src','https://www.animatedimages.org/data/media/187/animated-dinosaur-image-0012.gif');
         alert("食べないでー！");
     }
   });

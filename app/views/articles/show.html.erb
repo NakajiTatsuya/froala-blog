@@ -2,7 +2,7 @@
   <h2 class="text-center"><%= @article.title %></h2>
   <div class="text-center">
   	<% if @article.image.attached? %>
-      <%= image_tag @article.image, :alt => "イメージ", width: '30%', height: '30%' %>
+      <%= image_tag @article.image, :alt => "イメージ", :class => "automatic_adjustment" %>
     <% end %>
   </div>
   <h5 class="text-center"><%= @article.created_at.strftime('%b %d, %Y') %></h5>
