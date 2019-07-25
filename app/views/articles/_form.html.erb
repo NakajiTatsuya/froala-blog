@@ -40,6 +40,17 @@
   </div>
 <% end %>
 <script>
+  window.onload=function() {
+    // alert('remove copyrite');
+    // var save=$('.fr-wrapper show-placeholder .fr-element fr-view').detach();
+    // $('.fr-wrapper show-placeholder').empty().append(save);
+    var appendHtml="<div class='fr-element fr-view' dir='auto' contenteditable='true' ariadisabled='false' spellcheck='true'><p id='postCont'><br></p></div>"
+    // $('.fr-wrapper.show-placeholder').empty().append(appendHtml);
+    $('.fr-wrapper.show-placeholder').children().hide();
+    $('.fr-element.fr-view').show();
+  } 
+</script>
+<script>
   $(function() {
   $('#wysiwyg').froalaEditor({
     language: 'ja',
