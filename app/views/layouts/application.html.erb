@@ -4,9 +4,12 @@
     <title>Dragonarrow</title>
     <!-- DOMから取り除く -->
     <style>
-      .fr-wrapper > div:first-child {
+      /*.fr-wrapper > div:first-child {
         display: none;
-      }
+      }*/
+    .fr-wrapper div:first-child a{
+      display: none !important;    
+    }
     </style>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
