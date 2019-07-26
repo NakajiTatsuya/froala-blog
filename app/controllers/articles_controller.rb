@@ -1,9 +1,9 @@
 class ArticlesController < ApplicationController
   before_action :find_article, only: [:edit, :update, :show, :destroy]
-  before_action :authenticate_user!, only: [:create, :edit, :update, :destroy]
   before_action :hash_init, only: [:index, :new, :create, :edit]
   # before_action :restrict_remote_ip, except: [:index, :show, :tag]
-  before_action :admin_user, only: [:create, :edit, :update, :destroy]
+  # before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_action :admin_user, only: [:new, :create, :edit, :update, :destroy]
 
   def tag
     # INNER JOINするために joinsメソッド
@@ -120,7 +120,7 @@ class ArticlesController < ApplicationController
   # end
 
   def admin_user
-      redirect_to(root_url, alert: '不正なアクセスです') unless current_user.admin?
+      redirect_to(root_url, alert: '不正なアクセスです') unless user_signed_in? && current_user.admin?
   end
 
 end
