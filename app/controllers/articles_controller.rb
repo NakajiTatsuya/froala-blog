@@ -6,14 +6,12 @@ class ArticlesController < ApplicationController
   before_action :admin_user, only: [:new, :create, :edit, :update, :destroy]
 
   def tag
-    # INNER JOINするために joinsメソッド
-    # @articles = Article.joins(:tags).where(tags: {id: params[:id]})
-    @articles = Article.joins(:tags).merge(Tag.where(id: params[:id]))
+    articles = Article.joins(:tags).merge(Tag.where(id: params[:id]))
+    @articles = articles.paginate(page: params[:page], per_page: 20)
   end
 
   def index
-    @articles = Article.all
-    # @tags = Tag.select('tags.*', 'count(articles.id) AS acs').left_joins(:articles).group('tags.id').order('acs desc').limit(5)
+    @articles = Article.paginate(page: params[:page], per_page: 20)
   end
 
   def new

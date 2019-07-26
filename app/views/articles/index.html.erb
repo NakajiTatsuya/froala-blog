@@ -1,5 +1,6 @@
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+    <!-- 検索フォームを入れる予定 -->
     <% @articles.each do |article| %>
     <div class="col-xs-12 text-center">
       <div class="text-center">
@@ -21,6 +22,9 @@
       <hr />
     </div>
     <% end %>
+    <div class="text-center">
+      <%= will_paginate @articles, :previous_label => ' &lt 前へ', :next_label => '次へ &gt', page_gap: '…' %>
+    </div>
   </div>
 </div>
 
