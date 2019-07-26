@@ -34,6 +34,8 @@ gem 'devise'
 gem 'yaml_db'
 gem 'serviceworker-rails'
 gem 'google-analytics-rails'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 
 group :development, :test do

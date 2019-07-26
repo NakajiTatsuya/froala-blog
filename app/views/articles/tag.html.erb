@@ -24,6 +24,9 @@
       <hr />
     </div>
     <% end %>
+    <div class="text-center">
+      <%= will_paginate @articles, :previous_label => ' &lt 前へ', :next_label => '次へ &gt', page_gap: '…' %>
+    </div>
   </div>
 </div>
 
