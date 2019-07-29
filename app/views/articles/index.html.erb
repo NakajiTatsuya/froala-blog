@@ -1,6 +1,12 @@
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1 col-xs-12">
     <!-- 検索フォームを入れる予定 -->
+    <%= form_tag articles_path, :method => 'get' do %> <%#　projects_pathはモデル名で読みかえること %>
+      <p class="text-right">
+        <%= text_field_tag :search, params[:search], :placeholder => '記事タイトル' %>
+        <%= submit_tag "search", :title => nil, :style => 'background-color: #fffacd' %>
+      </p>
+    <% end %>
     <% @articles.each do |article| %>
     <div class="col-xs-12 text-center">
       <div class="text-center">
@@ -23,7 +29,7 @@
     </div>
     <% end %>
     <div class="text-center">
-      <%= will_paginate @articles, :previous_label => ' &lt 前へ', :next_label => '次へ &gt', page_gap: '…' %>
+      <%= will_paginate @articles, :previous_label => '&lt 前へ', :next_label => '次へ &gt', page_gap: '…' %>
     </div>
   </div>
 </div>

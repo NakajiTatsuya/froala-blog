@@ -1,4 +1,10 @@
 <div class="col-sm-11 col-xs-12">
+  <%= form_tag articles_path, :method => 'get', :action => 'index' do %> <%#　projects_pathはモデル名で読みかえること %>
+    <p class="text-right">
+      <%= text_field_tag :search, params[:search], :placeholder => '記事タイトル' %>
+      <%= submit_tag "search", :title => nil, :style => 'background-color: #fffacd' %>
+    </p>
+  <% end %>
   <h2 class="text-center"><%= @article.title %></h2>
   <div class="text-center">
   	<% if @article.image.attached? %>
