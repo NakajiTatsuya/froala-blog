@@ -18,7 +18,7 @@
             <i class="fa fa-code" aria-hidden="true"> code</i>
           </a>
           <ul class="dropdown-menu" role="menu">
-            <% Tag.select('tags.*', 'count(articles.id) AS acs').left_joins(:articles).group('tags.id').order('acs desc').each do |tag| %>
+            <% Tag.popular_sort_tags.each.each do |tag| %>
               <li role="presentation"><a href=<%= manage_tag_path(id: tag.id) %>><%= tag.name %></a></li>
             <% end %>
           </ul>
