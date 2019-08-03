@@ -1,0 +1,11 @@
+<div class="widgettitle">カテゴリー</div>
+<ul id="title">
+	<% Tag.popular_sort_tags.each do |tag| %>
+	<li role="presentation"><a href=<%= manage_tag_path(id: tag.id) %>><%= tag.name %></a></li>
+	<% end %>
+</ul>
+<div class="widgettitle">
+	<a href=<%= root_path %>>
+		<font size="5" color="#fff">トップに戻る</font>
+	</a>
+</div>

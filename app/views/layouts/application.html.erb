@@ -4,7 +4,7 @@
     <title>Dragonarrow</title>
     <!-- DOMから取り除く -->
     <style>
-      .fr-wrapper > div:first-child {
+      .fr-wrapper > div:first-child a {
         visibility:hidden;
       }
     </style>
@@ -40,7 +40,15 @@
       <% end %>
     </div>
     <div class="container-fluid">
-      <%= yield %>
+      <div class="row">
+        <!-- サイドバーはデスクトップのみ -->
+        <div class="col-sm-9">
+          <%= yield %>
+        </div>
+        <div class="sidebar col-sm-3 hidden-xs">
+          <%= render "layouts/sidebar" %>
+        </div>
+      </div>
     </div>
   </body>
 </html>
