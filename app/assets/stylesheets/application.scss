@@ -1,8 +1,9 @@
 @import 'form';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome';
 @import 'froala_editor.min.css';
 @import 'froala_style.min.css';
-@import "font-awesome-sprockets";
-@import "font-awesome";
 @import 'plugins/char_counter.min.css';
 @import 'plugins/code_view.min.css';
 @import 'plugins/colors.min.css';
@@ -17,10 +18,10 @@
 @import 'plugins/special_characters.min.css';
 @import 'plugins/table.min.css';
 @import 'plugins/video.min.css';
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+
+@import 'third_party/embedly.min.css';
+@import 'third_party/image_tui.min.css';
 @import 'third_party/spell_checker.min.css';
-// @import 'third_party/embedly.min.css'; embedlyは最近になってapikeyを有料で取得しなければならなくなった http://embed.ly/pricing
 
 .sidebar {
   display: none;
