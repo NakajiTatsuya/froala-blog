@@ -8,8 +8,7 @@
 // compiled file. JavaScript code in this file should be added after the last require_* statement.
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
-// about supported directives.
-// require third_party/embedly.min.jsは最近 API_keyが必須になり http://embed.ly/pricing から有料で作らなければならない
+// about supported directives.d
 //
 //= require jquery
 //= require jquery_ujs
@@ -47,7 +46,11 @@
 //= require plugins/url.min.js
 //= require plugins/video.min.js
 //= require activestorage
-//= require third_party/image_aviary.min.js
+
 //= require third_party/spell_checker.min.js
+//= require third_party/font_awesome.min.js
+//= require third_party/embedly.min.js
+//= require third_party/image_tui.min.js
+
 //= require languages/ja.js
 //= require serviceworker-companion

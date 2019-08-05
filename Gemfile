@@ -19,9 +19,10 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'wysiwyg-rails', '~> 2.6.0'
+gem 'wysiwyg-rails', '~> 2.9', '>= 2.9.2'
 gem 'simple_form'
 gem 'bootstrap-sass'
+gem 'font-awesome-rails'
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
