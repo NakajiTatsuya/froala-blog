@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dragonarrow</title>
+    <title><%= content_for?(:html_title) ? yield(:html_title) : "Dragonarrow" %></title>
     <!-- DOMから取り除く -->
     <style>
       .fr-wrapper > div:first-child a {
@@ -13,6 +13,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- bubbly-bgのcdn https://www.webcreatorbox.com/tech/javascript-particles 参照 -->
+    <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google_analytics -->
     <%= analytics_init if Rails.env.production? %>

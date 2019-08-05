@@ -1,3 +1,4 @@
+<% content_for(:html_title) { @article.title } %>
 <div class="col-sm-11 col-xs-12">
   <%= form_tag articles_path, :method => 'get', :action => 'index' do %> <%#　projects_pathはモデル名で読みかえること %>
     <p class="text-right">
