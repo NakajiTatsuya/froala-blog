@@ -4,9 +4,6 @@
     <title><%= content_for?(:html_title) ? yield(:html_title) : "Dragonarrow" %></title>
     <!-- DOMから取り除く -->
     <style>
-      .fr-wrapper > div:first-child a {
-        visibility:hidden;
-      }
     </style>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -14,10 +11,6 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <!-- document https://www.mathjax.org/ -->
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-    </script>
     <!-- bubbly-bgのcdn https://www.webcreatorbox.com/tech/javascript-particles 参照 -->
     <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +29,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon180.png">
 
-</head>
+  </head>
 
   <body>
     <%= render "layouts/navigation" %>
