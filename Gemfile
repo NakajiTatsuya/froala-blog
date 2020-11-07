@@ -39,6 +39,7 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'sitemap_generator'
 gem 'whenever', require: false
+gem 'rack-cors'
 
 
 group :development, :test do

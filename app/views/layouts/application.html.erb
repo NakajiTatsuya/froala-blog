@@ -19,6 +19,9 @@
     <!-- google_analytics -->
     <%= analytics_init if Rails.env.production? %>
 
+    <!-- google_adsense auto-ad -->
+    <script data-ad-client="ca-pub-4599354544848343" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <link rel="manifest" href="/manifest.json" />
     <%= favicon_link_tag('favicon.ico') %>
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon57.png">
@@ -42,13 +45,46 @@
       <% end %>
     </div>
     <div class="container-fluid">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 横長タイプ -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-4599354544848343"
+           data-ad-slot="5652212000"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
       <div class="row">
         <!-- サイドバーはデスクトップのみ -->
         <div class="col-sm-9">
           <%= yield %>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- google_adsense横長タイプ -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4599354544848343"
+               data-ad-slot="5652212000"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
         <div class="sidebar col-sm-3 hidden-xs">
           <%= render "layouts/sidebar" %>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- 縦長タイプ -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4599354544848343"
+               data-ad-slot="2242083054"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
     </div>
