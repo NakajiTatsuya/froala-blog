@@ -1,4 +1,5 @@
 <% content_for(:html_title) { @article.title } %>
+<% content_for(:html_description) { @article.description } %>
 <div class="col-sm-11 col-xs-12">
   <%= form_tag articles_path, :method => 'get', :action => 'index' do %> <%#　projects_pathはモデル名で読みかえること %>
     <p class="text-right">
@@ -7,12 +8,16 @@
     </p>
   <% end %>
   <h2 class="text-center"><%= @article.title %></h2>
+  <p class="text-center">updated on <%= @article.updated_at.strftime("%Y-%m-%d") %></p>
+  <% if @article.description.present? %>
+    <h3 class="summary"><i class="fa fa-check-square-o" aria-hidden="true"></i> 概要</h3>
+    <p class="description"><%= @article.description %></p>
+  <% end %>
   <div class="text-center">
   	<% if @article.image.attached? %>
       <%= image_tag @article.image, :alt => "イメージ", :class => "automatic_adjustment" %>
     <% end %>
   </div>
-  <h5 class="text-center"><%= @article.created_at.strftime('%b %d, %Y') %></h5>
   <div class="fr-view">
   	<%= raw @article.body %>
   	<!-- <%= simple_format(@article.body, {}, sanitize: false) %> -->

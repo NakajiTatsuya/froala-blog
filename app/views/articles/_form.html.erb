@@ -15,7 +15,11 @@
   <% end %>
 
   <div class="form-group">
-    <%= f.input :title, class: "form-control" %>
+    <%= f.input :title, class: "form-control", placeholder: '30字以内で書いてください' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.input :description, class: "form-control", placeholder: 'ページの要約を20文字以内で書いてください' %>
   </div>
 
   <div class="form-group">

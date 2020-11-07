@@ -18,13 +18,11 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
-    # @article.tags.build
   end
 
   # Create action saves the article into database
   def create
     @article = Article.new(article_params)
-    # @article.tags.build(tag_params)
     if @article.save
       flash[:notice] = "Successfully created article!"
       redirect_to article_path(@article)
@@ -63,32 +61,10 @@ class ArticlesController < ApplicationController
     end
   end
 
-  # def cakephp
-  #   tag = Tag.where('name=?', cakePHP)
-  #   @articles = tag.articles
-  #   render :index
-  # end
-
-  # def php
-  #   @articles = Article.where('Tag.name=?', 'php')
-  # end
-
-  # def swift
-  #   @articles = Article.where('Tag.name=?', 'swift')
-  # end
-
-  # def reactnative
-  #   @articles = Article.where('Tag.name=?', 'reactnative')
-  # end
-
-  # def rubyonrails
-  #   @articles = Article.where('Tag.name=?', 'rubyonrails')
-  # end
-
   private
 
   def article_params
-    params.require(:article).permit(:title, :body, :image, tag_ids: [])
+    params.require(:article).permit(:title, :description,:body, :image, tag_ids: [])
   end
 
   def find_article

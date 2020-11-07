@@ -1238,9 +1238,9 @@ ar_internal_metadata:
   - updated_at
   records: 
   - - environment
-    - production
+    - development
     - '2018-11-12 10:16:28.781674'
-    - '2019-03-21 07:29:42.146279'
+    - '2020-11-07 19:50:55.135058'
 
 ---
 articles:
@@ -1250,6 +1250,7 @@ articles:
   - body
   - created_at
   - updated_at
+  - description
   records: 
   - - 24
     - Javascript FetchでTwitterにログイン
@@ -1278,6 +1279,7 @@ articles:
       data-id=\"49224\" itemprop=\"acceptedAnswer\"><p><br></p></section></section>"
     - '2018-11-22 09:03:50.950825'
     - '2019-07-22 17:14:36.513759'
+    - 
   - - 84
     - Rails5.2 bootstrapとclearanceで認証機能をサクッと実装
     - "<h1 style=\"text-align: center;\"><span style=\"color: rgb(184, 49, 47);\">認証(クリアランス)
@@ -1353,6 +1355,7 @@ articles:
       href=\"https://github.com/thoughtbot/clearance\">こちら</a>で詳しい内容をご確認ください</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-08 15:29:09.337574'
     - '2019-07-25 17:08:51.205588'
+    - 
   - - 85
     - rails5.2 jqueryとfontawesomeの導入
     - "<h1 style=\"text-align: center;\">Railsにfontawesomeとjqueryを導入</h1><p><strong><span
@@ -1380,6 +1383,7 @@ articles:
       fa_icon &#39;star&#39; %&gt;</code></pre><p><i class=\"fa fa-star\"></i></p><p>的な感じで使える</p><p><br></p><p><br></p>"
     - '2018-12-08 15:55:53.848985'
     - '2019-07-20 04:42:28.062261'
+    - 
   - - 86
     - Rails simple_formの導入
     - "<h1 style=\"text-align: center;\">simple_formを導入して簡単にフォームを作れる様にする</h1><p>1.</p><pre><code>#Gemfile\r\n...\r\ngem
@@ -1429,6 +1433,7 @@ articles:
       edit.html.erb\r\n&lt;%= render &#39;form&#39;, post: @article %&gt;</pre>"
     - '2018-12-08 16:03:39.791986'
     - '2018-12-08 16:51:33.03194'
+    - 
   - - 87
     - wysiwyg-rails
     - "<h1 style=\"text-align: center;\">wysiwyg-railsの導入</h1><p><br></p><p><span
@@ -1569,6 +1574,7 @@ articles:
       class=\"fr-emoticon fr-deletable fr-emoticon-img\" style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f60f.svg);\">&nbsp;</span></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-09 13:39:12.364198'
     - '2018-12-09 13:43:37.11485'
+    - 
   - - 88
     - rails5.2 Active Storage
     - "<h1 style=\"text-align: center;\">Active Storageの導入</h1><p>今までは画像やファイルを保存したいときは、paperclipを使っていましたが、rails5.2からはactive
@@ -1753,6 +1759,7 @@ articles:
       href=\"https://qiita.com/hmmrjn/items/7cc5e5348755c517458a\">こちらの方</a></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-10 07:09:04.553155'
     - '2019-07-11 05:33:01.395561'
+    - 
   - - 89
     - wysiwyg-rails imageUploadToS3 / wysiwygエディタからS3にアップロード
     - "<h1 style=\"text-align: center;\">wysiwyg-rails imageUploadToS3</h1><p><br></p><p><span
@@ -1823,6 +1830,7 @@ articles:
       class=\"fr-emoticon fr-deletable fr-emoticon-img\" style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f616.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-10 08:11:09.948566'
     - '2018-12-10 08:11:09.953742'
+    - 
   - - 90
     - Rails ArticleモデルTagモデルで多対多 のテーブルを作る
     - "<h1 style=\"text-align: center;\"><span style=\"font-family: Impact,Charcoal,sans-serif;\">Rails5.2
@@ -1964,6 +1972,7 @@ articles:
       end %&gt;\r\n...</pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-10 09:21:55.300522'
     - '2019-01-01 07:10:58.289144'
+    - 
   - - 91
     - rails5.2 'rack-attack' で セキュリティ対策
     - "<h1 style=\"text-align: center;\">gem rack-attack[セキュリティ対策]を実装</h1><p><br></p><p>Gemfileに下記を追加する</p><pre>#
@@ -2008,6 +2017,7 @@ articles:
       IPは違うので注意！！)</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-10 09:43:05.656626'
     - '2019-03-21 13:38:35.365434'
+    - 
   - - 92
     - 'ソケット地獄のmysqlエラー　ERROR 2002 (HY000): Can''t connect to local MySQL server through
       socket ''/tmp/mysql.sock'' (38)'
@@ -2040,6 +2050,7 @@ articles:
       class=\"fr-emoticon fr-deletable fr-emoticon-img\" style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f602.svg);\">&nbsp;</span></h2><p><br></p><p><br></p>"
     - '2018-12-16 00:55:53.541092'
     - '2018-12-16 01:57:44.433948'
+    - 
   - - 94
     - ".gitignoreの作り方[node_modulesを取り除きたい]"
     - "<p><span style=\"font-size: 24px;\">目的: node_modulesをgitから取り除き、.ignoreに記載して無視するようにする(package.jsonがあるのでバージョン管理は必要ないからnode_modulesは普通gitにあげない)</span></p><p><br></p><p><span
@@ -2063,6 +2074,7 @@ articles:
       href=\"https://www.sejuku.net/blog/52175\">スーパーユーザーへの切り替え</a></p><p><br></p><p><br></p>"
     - '2018-12-19 06:48:55.143279'
     - '2018-12-19 06:48:55.149109'
+    - 
   - - 95
     - Node.jsでスプレッドシートのデータ取得
     - "<h1>環境 Node.js v10.11.0&nbsp;</h1><p><br></p><p><br></p><p><span style=\"font-size:
@@ -2118,6 +2130,7 @@ articles:
       Drive Apiではなく Google Sheets Api を有効化してクライアントキーからアクセスする方法もあるみたいです</p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2018-12-21 08:19:35.917091'
     - '2018-12-24 12:48:18.685196'
+    - 
   - - 96
     - gem geocoder で 地名と座標を自由に変換
     - "<h1>rails で住所から緯度経度を取得</h1><p><br></p><p><span style=\"background-color: rgb(247,
@@ -2164,6 +2177,7 @@ articles:
       btn-danger&quot; %&gt;\r\n&lt;/div&gt;\r\n&lt;% end %&gt;</pre><p><br></p>"
     - '2018-12-25 04:57:14.991951'
     - '2019-07-26 12:29:32.211333'
+    - 
   - - 97
     - Rails5.2 Herokuにデプロイ
     - "<p style=\"text-align: center;\"><span style=\"font-size: 30px;\">Rails5.2
@@ -2185,6 +2199,7 @@ articles:
       = true</pre><p>に設定し</p><pre>$ bundle exec rake assets:precompile RAILS_ENV=production</pre><p>を実行</p><p><br></p><p><br></p>"
     - '2019-01-13 12:29:06.871181'
     - '2019-01-13 13:17:42.725892'
+    - 
   - - 98
     - Rails5.2 ローカルのDBデータをHerokuに渡す
     - "<p><span style=\"font-size: 30px; color: rgb(184, 49, 47);\">トラブル</span><br>herokuにデプロイしたあと、テーブルにデータがなく空状態である<br>(After
@@ -2202,6 +2217,7 @@ articles:
       Heroku now!)</pre>"
     - '2019-01-13 13:41:28.65589'
     - '2019-06-14 06:46:45.89785'
+    - 
   - - 99
     - Rails5.2 管理者権限の作成
     - "<header><h1 style=\"text-align: center;\">railsで管理者権限を持たせる</h1></header><h2>実現したいこと</h2><p><br>管理者しか入れたくないページがあるので、権限を管理者だけにする</p><p>(make
@@ -2228,6 +2244,7 @@ articles:
       fr-deletable fr-emoticon-img\" style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f601.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p><p><br></p>"
     - '2019-01-14 06:12:11.77056'
     - '2019-01-14 06:56:19.22122'
+    - 
   - - 103
     - コマンドライン引数
     - "<pre>&lt;?php\r\n  // $argcにはコマンドライン引数の数\r\nif( $argc != 3 ){\r\n  echo &quot;数を２つ指定して下さい&quot;.PHP_EOL;\r\n//
@@ -2236,6 +2253,7 @@ articles:
       style=\"width: 600px;\" class=\"fr-fic fr-dib fr-fil\"></p>"
     - '2019-01-21 08:03:23.491288'
     - '2019-08-06 14:06:25.256904'
+    - 
   - - 104
     - パリティチェック
     - "<p>あなたはデータ入力の作業を行っています。<br>この入力するデータは &quot;0000&quot; から &quot;1111&quot;
@@ -2259,6 +2277,7 @@ articles:
       $input_lines;\r\n}\r\n\r\n</pre>"
     - '2019-01-21 10:21:16.596649'
     - '2019-02-04 10:07:51.154638'
+    - 
   - - 106
     - ログファイル出力
     - "<p><br></p><p><br></p><pre>&lt;?php\r\n\r\n$ip = explode(&quot;.&quot;, trim(fgets(STDIN)));
@@ -2296,6 +2315,7 @@ articles:
       $info[$key][6]. &quot;\\n&quot;;\r\n        }\r\n      \r\n}\r\n    }\r\n  }\r\n}\r\n?&gt;</pre>"
     - '2019-02-03 08:46:43.991494'
     - '2019-02-03 08:56:12.803924'
+    - 
   - - 107
     - ダーツゲーム
     - "<pre>&lt;?php\r\n$first_line=explode(&quot; &quot;,fgets(STDIN));\r\n$first_line=filter_var_array($first_line,FILTER_SANITIZE_NUMBER_INT);\r\n$o_y=$first_line[0];\r\n$s=$first_line[1];\r\n$&theta;=$first_line[2];\r\n$&theta;=deg2rad($&theta;);
@@ -2309,6 +2329,7 @@ articles:
       1)).&quot;\\n&quot;;\r\n}else{\r\necho &quot;Miss\\n&quot;;\r\n}\r\n?&gt;</pre>"
     - '2019-02-04 10:05:40.707885'
     - '2019-02-04 10:56:55.763026'
+    - 
   - - 108
     - 地下アイドルの夢
     - "<pre>&lt;?php\r\n<span style=\"color: rgb(204, 204, 204);\">// ファンクラブの会員数N、ライブイベントの数M,ライブごとの利益情報\r\n//
@@ -2326,6 +2347,7 @@ articles:
       rgb(226, 80, 65);\">$sum</span>.PHP_EOL;\r\n?&gt;</pre>"
     - '2019-02-04 10:52:30.832563'
     - '2019-02-04 10:55:24.179776'
+    - 
   - - 109
     - ビームの反射
     - "<h1>ビームの反射</h1><pre>&lt;?php \r\n$array=explode(&quot; &quot;,fgets(STDIN));\r\n$array=filter_var_array($array,FILTER_SANITIZE_NUMBER_INT);\r\n$height=$array[0];\r\n$width=$array[1];\r\nfor
@@ -2358,6 +2380,7 @@ articles:
       \   break;\r\n}\r\n$count++;\r\n}\r\n\r\necho $count.PHP_EOL;\r\n\r\n</pre>"
     - '2019-02-07 12:12:08.528044'
     - '2019-03-07 05:07:10.201356'
+    - 
   - - 110
     - Rails5.2 postgresqlを使う
     - "<p style=\"text-align: center;\"><span style=\"font-size: 30px;\">Rails5.2
@@ -2371,6 +2394,7 @@ articles:
       psql -d hoge_development</pre><p>で確認!</p>"
     - '2019-03-04 06:20:58.518483'
     - '2019-03-04 06:53:29.499209'
+    - 
   - - 111
     - branchでの作業(1人)
     - "<pre>$ git checkout -b &quot;styles&quot; (masterからテェックアウト)</pre><p>作業終了したら</p><pre>$
@@ -2378,6 +2402,7 @@ articles:
       git merge styles</pre><p>stylesブランチの修正内容をマージする</p><pre>$ git branch -D styles</pre><p><code>style</code>ブランチが不要になったので、以下を実行して削除します。</p>"
     - '2019-03-04 07:11:43.78395'
     - '2019-03-04 07:20:12.561296'
+    - 
   - - 112
     - デバイスごとのレスポンシブWebデザインの作成
     - "<h1>Railsにてスマホ、パソコン用でスタイルを使い分ける方法!!</h1><p><br></p><p>479px以下 =&gt; スマホのみ</p><p>480~767px
@@ -2391,6 +2416,7 @@ articles:
       rgb(235, 107, 86);\">/* 479px以下用（スマートフォン用）の記述 */</span>\r\n}</pre><p><br></p><p><br></p>"
     - '2019-03-04 10:02:01.111313'
     - '2019-03-04 10:21:15.581725'
+    - 
   - - 113
     - Railsでメール送信
     - "<h1>WEBアプリにメールメール送信機能を実装する時に必要なSMTPの設定</h1><h2><br></h2><h2><span style=\"color:
@@ -2404,6 +2430,7 @@ articles:
       href=\"https://qiita.com/aiyu427/items/241e2feed06c15e1dcec\">https://qiita.com/aiyu427/items/241e2feed06c15e1dcec</a></h4><h4><br></h4><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-03-05 10:49:12.711405'
     - '2019-03-05 11:30:43.564661'
+    - 
   - - 114
     - SublimeText3 cliを使用
     - <p>CLIインストール&nbsp;</p><pre>$ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
@@ -2411,6 +2438,7 @@ articles:
       subl -n Path (パスをサブライムで新規ウィンドウで開く)</pre>
     - '2019-03-06 02:44:31.375515'
     - '2019-03-06 03:03:12.239212'
+    - 
   - - 115
     - postgreSQL コマンド
     - '<h1 itemprop="headline">PostgreSQLコマンドチートシート</h1><p><br></p><section itemprop="articleBody"><p>よく使うPostgreSQLで利用可能なコマンドのチートシートです。<br>環境：psql
@@ -2434,6 +2462,7 @@ articles:
       \?</code></p><h4>シェル上のコマンドを使いたい場合</h4><p><code>postgres=# \! command</code><br><em>command</em>の部分にlsやpwdを入れるとpsql上でもシェル上のコマンドが実行できる。</p></section>'
     - '2019-03-07 05:06:44.065442'
     - '2019-03-08 04:15:11.415337'
+    - 
   - - 116
     - Heroku PostgresのDBをローカルにコピーする方法
     - "<h1>Heroku PostgresのDBをローカルにコピーする方法</h1><p><br></p><p><br></p><p><code>heroku
@@ -2472,6 +2501,7 @@ articles:
       href=\"https://dragonarrow.herokuapp.com/articles/124\">ローカルDBをHerokuに移行</a></h1><h1><br></h1>"
     - '2019-03-08 03:33:36.69422'
     - '2019-05-13 10:13:40.905442'
+    - 
   - - 117
     - Rails5.2 PosrgreSQL テーブルのダブり
     - "<h1><span style=\"color: rgb(184, 49, 47);\">エラー内容: テーブルダブり</span></h1><p><br></p><pre>PG::DuplicateTable:
@@ -2485,6 +2515,7 @@ articles:
       url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f624.svg);\">&nbsp;</span>&nbsp;</h1><p><br></p>"
     - '2019-03-08 05:46:16.643583'
     - '2019-03-08 05:53:18.016236'
+    - 
   - - 118
     - github 間違って大事なファイルを削除した時
     - "<h1>リセットコマンド</h1><p><br></p><p>ステージングと作業ディレクトリをリセットして直前のコミット状態と一致させる。ローカルの作業も破棄されるので注意して使用する。</p><pre><code>$
@@ -2493,12 +2524,14 @@ articles:
       reset &lt;file&gt;</code></pre><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-03-08 07:56:22.616074'
     - '2019-03-08 07:59:51.992411'
+    - 
   - - 119
     - SMTP
     - <p itemprop="headline">Rails5でdeviseをAmazon SES SMTPサーバーを使って動かす</p><p><a href="http://blog.naoshihoshi.com/entry/2018/07/17/113000">http://blog.naoshihoshi.com/entry/2018/07/17/113000</a></p><p><br></p><p>aws_sesから配信</p><p><a
       href="http://blog.naoshihoshi.com/entry/2018/07/17/113000">http://blog.naoshihoshi.com/entry/2018/07/17/113000</a></p>
     - '2019-03-08 08:01:52.645631'
     - '2019-03-08 08:01:52.645631'
+    - 
   - - 121
     - "【パズル２】ほとんどのエンジニアには解けるが、下位20％のダメなエンジニアにだけ解けないパズル？"
     - "<p>こちらの問題 <a href=\"https://www.jabba.cloud/20151228212010/\">https://www.jabba.cloud/20151228212010/</a></p><p><br></p><pre>$
@@ -2542,6 +2575,7 @@ articles:
       | base64 -D\r\nデコード後</pre><p><br></p><p><br></p>"
     - '2019-03-15 08:11:13.867158'
     - '2019-03-15 09:16:20.419319'
+    - 
   - - 122
     - "【下位10％のダメなエンジニアにだけ解けないパズル】"
     - "<h1>【下位10％のダメなエンジニアにだけ解けないパズル】</h1><p><br></p><p><br></p><pre>$ curl <a href=\"http://challenge-your-limits.herokuapp.com/call/me\">http://challenge-your-limits.herokuapp.com/call/me</a>\r\n{&quot;message&quot;:&quot;Almost!
@@ -2563,6 +2597,7 @@ articles:
       style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f604.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-03-18 03:43:29.890167'
     - '2019-03-18 03:57:19.888'
+    - 
   - - 123
     - 初めてのPWA実装
     - "<h1 style=\"text-align: center;\">PWA実装のメモ</h1><p><span style=\"font-size:
@@ -2722,6 +2757,7 @@ articles:
       href=\"https://qiita.com/shiinoaya/items/e8cf25244419b317beae\">起動アイコン</a></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-03-19 03:38:59.061773'
     - '2019-03-19 05:24:22.156955'
+    - 
   - - 124
     - PostgreSQL ローカルデータをHerokuに移行
     - '<p>まず、Heroku上のDBを空っぽにしなきゃいけないので、</p><pre>$ heroku pg:reset</pre><p>でDBを消す。<br>次にローカルのDBをpushする。引数を２つ取る。</p><pre>heroku
@@ -2732,6 +2768,7 @@ articles:
       href="https://www.dragonarrow.work/articles/116">HerokuからLocalに移行</a></h1>'
     - '2019-03-21 13:45:27.246746'
     - '2019-08-02 11:40:06.793873'
+    - 
   - - 125
     - curl コマンド使い方
     - '<h1 style="text-align: center;">curlコマンドでURLにアクセスするとき</h1><h2>GETにアクセス(ビュー)</h2><pre>$
@@ -2748,6 +2785,7 @@ articles:
       &quot;age&quot;: &quot;12345&quot;}}&#39; patch_url</pre><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-03-22 01:42:42.176643'
     - '2019-03-22 02:05:32.335877'
+    - 
   - - 126
     - Rails5.2でAPIを作る
     - "<h1 itemprop=\"headline\">Rails5.2 APIで認証付きのWebAPIを作ってみる</h1><section itemprop=\"articleBody\"><h1>はじめに</h1><p>Rails5.2</p><h1>使用ソフトウェアのバージョン情報</h1><p>Rails5.2</p><p><br></p><p>こちらの記事がかなり助かりました。</p><p><a
@@ -2785,6 +2823,7 @@ articles:
       url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f618.svg);\">&nbsp;</span></span></p><p><br></p><p><br></p><p><br></p><p><br></p></section>"
     - '2019-03-22 03:49:44.606947'
     - '2019-03-22 04:11:47.213616'
+    - 
   - - 129
     - AWS IAM ユーザーを作成
     - '<h2 style="text-align: center;">AWSでIAM(Identity and Access Management) ユーザーを作成する例</h2><p><br></p><h2>目的:
@@ -2821,6 +2860,7 @@ articles:
       href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#sign-up-for-aws">ドキュメント</a></p>'
     - '2019-04-03 09:31:30.25511'
     - '2019-04-05 06:42:01.175991'
+    - 
   - - 130
     - AWSのVPCの作成
     - '<h2 style="text-align: center;">Virtual Private Cloud (VPC) の作成</h2><p><br></p><p><span
@@ -2846,6 +2886,7 @@ articles:
       href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#sign-up-for-aws">ドキュメント</a></p>'
     - '2019-04-04 07:30:28.003616'
     - '2019-04-04 08:57:26.485031'
+    - 
   - - 131
     - AWS セキュリティグループの作成
     - '<h2 style="text-align: center;"><span style="font-size: 30px;">セキュリティグループの作成</span></h2><p><br></p><h2>目的:
@@ -2896,6 +2937,7 @@ articles:
       href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#sign-up-for-aws">ドキュメント</a></p>'
     - '2019-04-04 08:26:02.123608'
     - '2019-07-26 08:54:10.304245'
+    - 
   - - 132
     - AWS EC2 のキーペアを作成する
     - "<h2 style=\"text-align: center;\"><span style=\"font-size: 30px;\">キーペアを作成する</span></h2><p><br></p><p><span
@@ -2940,6 +2982,7 @@ articles:
       href=\"https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html\">ドキュメント</a></p><p><br></p><p><br></p>"
     - '2019-04-05 06:13:55.572095'
     - '2019-04-05 09:44:45.849737'
+    - 
   - - 133
     - AWS コマンドラインインターフェイス
     - "<h1 style=\"text-align: center;\">AWS コマンドラインインターフェイス</h1><p><br></p><p><span
@@ -2971,6 +3014,7 @@ articles:
       href=\"https://aws.amazon.com/jp/cli/\">document</a></p>"
     - '2019-04-05 06:59:35.082106'
     - '2019-04-05 09:48:24.397612'
+    - 
   - - 134
     - AWS EC2インスタンスの作成
     - '<h1 style="text-align: center;">EC2インスタンスの作成</h1><p><span style="font-size:
@@ -3014,6 +3058,7 @@ articles:
       style="font-size: 24px;">お宝参考記事</span></a></p><p><br></p><p><br></p>'
     - '2019-04-07 12:11:32.531703'
     - '2019-04-07 13:25:28.680954'
+    - 
   - - 135
     - AWS EC2へのSSHログイン
     - "<p style=\"text-align: center;\"><span style=\"font-size: 30px;\">EC2へのSSHログイン</span></p><p><br></p><p><span
@@ -3150,6 +3195,7 @@ articles:
       color: rgb(44, 130, 201);'>&nbsp;</span></span></p><p><br></p><p><a href=\"https://qiita.com/naoki_mochizuki/items/814e0979217b1a25aa3e\">参考文献</a></p><p><br></p>"
     - '2019-04-07 13:29:44.959176'
     - '2019-04-07 15:15:35.762164'
+    - 
   - - 138
     - 中央値の取り方
     - "<p><br></p><p><a href=\"https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b\"></a><a
@@ -3175,6 +3221,7 @@ articles:
       += (b[i] - a[i]).abs\r\ncount += (exit - b[i]).abs\r\nend\r\nputs count</pre>"
     - '2019-04-15 07:50:14.559412'
     - '2019-04-15 07:53:46.705265'
+    - 
   - - 139
     - "[Ruby] AtCodr D - Handstand"
     - "<p><span style=\"font-size: 24px;\">問題atCoder <a href=\"https://atcoder.jp/contests/abc124/tasks/abc124_d\">https://atcoder.jp/contests/abc124/tasks/abc124_d</a></span></p><p><br></p><pre><span
@@ -3192,6 +3239,7 @@ articles:
       if tmp &gt; ans  \r\n\r\nend\r\n\r\nputs ans</span></pre><p><br></p><p><br></p>"
     - '2019-04-16 13:19:35.598445'
     - '2019-04-18 07:14:07.346921'
+    - 
   - - 140
     - Rails5.2 credentials
     - "<p><br></p><p><span style=\"font-size: 30px;\">目的: database.ymlやdatabase.ymlなどの各ファイルで、環境変数として機密情報を隠したいときに使える</span></p><p><br></p><p><strong><span
@@ -3229,6 +3277,7 @@ articles:
       echo $EDITOR\r\n  #=&gt; vi\r\n\r\n$ bin/rails credentials:edit</span></pre>"
     - '2019-04-17 09:18:11.45448'
     - '2019-04-17 09:50:12.596595'
+    - 
   - - 141
     - cakePHP3.6でディレクトリを移行した後に生じた謎エラー
     - "<h1 style=\"text-align: center;\"><span style=\"font-size: 30px;\">作業ディレクトリ変更後の謎エラー</span></h1><p><br></p><p><span
@@ -3277,6 +3326,7 @@ articles:
       style=\"font-size: 24px;\">\r\n</span></span></pre>"
     - '2019-04-20 12:03:05.373043'
     - '2019-04-20 12:16:25.740822'
+    - 
   - - 142
     - MySQL 5.6から8.0にupgradeした後のエラー
     - "<h1 itemprop=\"headline\">SQLSTATE[HY000] [2054] The server requested authentication
@@ -3347,6 +3397,7 @@ articles:
       style=\"font-size: 10px;\"><a href=\"http://www-creators.com/archives/5574\">参考文献</a></span></p><p><br></p>"
     - '2019-04-20 13:04:54.11034'
     - '2019-04-20 13:53:33.155435'
+    - 
   - - 143
     - Rubyの配列で使えるメソッド、二次元配列の使い方
     - "<h1 itemprop=\"headline\"><span style=\"font-size: 36px;\">Rubyの配列で使えるメソッド、二次元配列の使い方</span></h1><section
@@ -3386,6 +3437,7 @@ articles:
       [70322091142940, 70322091142840, 70322091142800]</span></pre></section>"
     - '2019-04-26 04:48:06.407622'
     - '2019-04-26 04:49:10.267062'
+    - 
   - - 144
     - AWS RDS
     - "<h1 style=\"text-align: center;\"><span style=\"font-size: 60px;\">初めてのRDS</span></h1><p><br></p><p><span
@@ -3454,6 +3506,7 @@ articles:
       style=\"color: rgb(163, 143, 132);\">$ rm -rf /var/lib/mysql</span></pre></section><p><br></p><p><br></p><p><br></p>"
     - '2019-04-26 05:38:38.287188'
     - '2019-04-26 07:01:09.097883'
+    - 
   - - 145
     - Python環境構築(python + pip + pyenv)
     - "<h1 style=\"text-align: center;\"><span style=\"font-size: 48px;\">Python環境構築</span></h1><p><br></p><p><span
@@ -3492,6 +3545,7 @@ articles:
       30px;\">python3 って打たなくてもバージョン3が起動するようになった！！</span></p><p><br></p><p><br></p>"
     - '2019-05-07 05:54:01.709739'
     - '2019-05-07 06:24:53.781135'
+    - 
   - - 146
     - python matplotlibのインストール
     - "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">python matplotlibのインストール</span></p><p
@@ -3541,6 +3595,7 @@ articles:
       style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f602.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-07 07:59:20.212672'
     - '2019-05-07 08:31:00.447258'
+    - 
   - - 147
     - python numpyインストール
     - "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">python numpyインストール</span></p><p
@@ -3573,6 +3628,7 @@ articles:
       style=\"width: 1030px;\" class=\"fr-fic fr-dib fr-fil\"></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-07 09:04:53.546952'
     - '2019-05-07 09:13:24.421143'
+    - 
   - - 148
     - ゼロから作る Deep Learning 第1章
     - "<h1 style=\"text-align: center;\">『ゼロから作る Deep Learning』第1章 勉強メモ</h1><p><code>numpy
@@ -3589,6 +3645,7 @@ articles:
       style=\"width: 600px;\" class=\"fr-fic fr-dib fr-fil\"></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-09 06:03:24.348408'
     - '2019-08-18 13:35:47.363614'
+    - 
   - - 149
     - ゼロから作る Deep Learning 第2章
     - "<h1 style=\"text-align: center;\">ゼロから作る Deep Learning』第2章 勉強メモ</h1><p><br></p><pre><span
@@ -3622,6 +3679,7 @@ articles:
       style=\"font-size: 48px;\">以上！！</span></p>"
     - '2019-05-09 06:31:22.596321'
     - '2019-08-18 13:35:05.580379'
+    - 
   - - 150
     - ゼロから作る Deep Learning 第3章
     - "<h2 style=\"text-align: center;\">手書き数字認識</h2><h2>MNIST データセット</h2><p><span
@@ -3779,6 +3837,7 @@ articles:
       style=\"font-size: 24px;\">ニューラルネットワークの順方向の伝播(forward propagation)につ いて解説しました</span></p>"
     - '2019-05-09 06:52:22.536088'
     - '2019-08-18 13:34:00.069439'
+    - 
   - - 151
     - EC2の仮想サーバーで yum がタイムアウトしてしまう
     - "<h1 style=\"text-align: center;\">EC2の仮想サーバーで yum がタイムアウトしてしまう</h1><p><br></p><pre><span
@@ -3880,6 +3939,7 @@ articles:
       url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f60e.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p><p><br></p>"
     - '2019-05-13 09:36:11.058148'
     - '2019-12-04 16:00:00.347534'
+    - 
   - - 152
     - "[AWS] EC2+RDS開発環境設定　Nginx+Unicorn+Ruby2.6+Rails5.2+MySQL5.5"
     - "<h1 style=\"text-align: center;\">RDS開発環境設定</h1><p>初めにsshでEC2にログイン</p><pre> 
@@ -3918,6 +3978,7 @@ articles:
       style=\"font-size: 14px;\">おすすめ参考記事&nbsp;<a href=\"https://qiita.com/iwaseasahi/items/b28f8b91c4638e2c57fd\">https://qiita.com/iwaseasahi/items/b28f8b91c4638e2c57fd</a></span></h3>"
     - '2019-05-14 02:15:31.048711'
     - '2019-05-31 07:15:20.169601'
+    - 
   - - 153
     - AWS EC2仮想サーバーに環境構築(Ruby, MySQL, node.js, git連携)
     - "<h1 style=\"text-align: center;\">EC2インスタンス内でrubyやgitその他の環境が動くよう設定する</h1><p><br></p><pre>[tatsuya@ip-10-0-0-238
@@ -3989,6 +4050,7 @@ articles:
       node -v\r\nv11.15.0</pre>"
     - '2019-05-16 04:20:26.263562'
     - '2019-05-24 05:01:42.00465'
+    - 
   - - 154
     - EC2 sshが権限ミスで突然死する
     - '<h2>Amazon EC2で「ssh_exchange_identification: Connection closed by remote host」エラーでインスタンスに接続出来ない。</h2><p><br></p><p>Amazon
@@ -3999,6 +4061,7 @@ articles:
       data-empty="true"><br></p><pre>drwxr-xr-x 20 root root 4096 Aug 2 04:55 var</pre>'
     - '2019-05-16 07:19:01.982539'
     - '2019-05-16 07:23:01.597606'
+    - 
   - - 155
     - EC2サーバーからGitHubにsshアクセスできない
     - "<h1 style=\"text-align: center;\">EC2サーバーからGitHubにsshアクセスできない</h1><p><br></p><p>仮想サーバーのフォルダやssh設定ファイル状況</p><pre>[tatsuya@ip-10-0-0-238
@@ -4019,6 +4082,7 @@ articles:
       30px;\">つながりました、完璧!!</span></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-16 08:24:51.502644'
     - '2019-05-16 08:38:50.59554'
+    - 
   - - 156
     - ゼロから作る Deep Learningで使用する関数ファイル
     - "<h1 style=\"text-align: center;\">深層学習の活性化関数</h1><p><br></p><p><br></p><p><span
@@ -4043,6 +4107,7 @@ articles:
       softmax_loss(X, t):\r\n  y = softmax(X)\r\n  return cross_entropy_error(y, t)</span></pre>"
     - '2019-05-17 10:16:18.151877'
     - '2019-08-18 13:33:39.734545'
+    - 
   - - 157
     - EC2仮想サーバーにpostgresqlをインストールする手順
     - "<h1 style=\"text-align: center;\">postgresqlのサーバはyumでインストールする</h1><p>どうやら <code>amazon-linux-extras</code>
@@ -4150,6 +4215,7 @@ articles:
       /var/lib/postgresql*</p>"
     - '2019-05-20 04:12:01.201069'
     - '2019-06-11 11:15:47.472281'
+    - 
   - - 158
     - EC2に入れたMySQL5.6を8.0にする
     - "<h1 style=\"text-align: center;\">EC2仮想サーバーに入れたMySQL5.6を8.0にする</h1><p><br></p><p>現在,
@@ -4227,6 +4293,7 @@ articles:
       row in set (0.00 sec)</pre>"
     - '2019-05-21 03:14:54.744679'
     - '2019-05-21 04:04:03.770659'
+    - 
   - - 159
     - EC2仮想サーバーにRuby On Rails5.2 のアプリをクローンした後の稼働まで
     - "<h3>目的: Rails4までは　$ rake secret でシークレットキーを確認してconfig/secrets.yml に貼り付けることで本番環境でファイルを読み込めるようになっていた。</h3><h3>Rails5.2から機密情報をcredentialsで暗号化する手法が導入され、MASTERを使ってファイルを読み込む。</h3><h3>今回はMASTERKEYをどう渡すのか、そしてDBをどう設定してローカルで動いていた時みたいに稼働させるのか、手順を記す。</h3><p><br></p><h2><br>環境変数：RAILS_MASTER_KEY</h2><p><code>/config/master.key</code>が共有できない環境では<strong>master
@@ -4253,6 +4320,7 @@ articles:
       rgb(163, 143, 132);\">も早めにしとこう</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-24 05:05:04.718116'
     - '2019-05-24 06:43:44.526384'
+    - 
   - - 160
     - Rails5.2 EC2サーバーでRailsコンソールが起動しない
     - "<h1 style=\"text-align: center;\">bin/rails sとかは動くのにコンソールが不動</h1><p><br></p><pre>[tatsuya@ip-10-0-0-238
@@ -4279,6 +4347,7 @@ articles:
       同じ名前でプロジェクトを作ったり壊したりするときはプロセスが残っていないか確認しよう。</span></h1><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-05-24 07:49:20.225236'
     - '2019-05-24 08:03:55.945239'
+    - 
   - - 161
     - EC2内にRails5.2 + unicorn(アプリケーションサーバ) + Nginx(Webサーバ) を導入
     - "<p><span style=\"font-size: 30px;\">前提: ruby, データベースのユーザー作成済み、gitの連携が終わっていて、
@@ -4406,6 +4475,7 @@ articles:
       href=\"https://qiita.com/naoki_mochizuki/items/5a1757d222806cbe0cd1\">https://qiita.com/naoki_mochizuki/items/5a1757d222806cbe0cd1</a></p><p><br></p>"
     - '2019-06-03 06:12:43.788525'
     - '2019-07-08 10:05:18.902384'
+    - 
   - - 162
     - "『ゼロから作る Deep Learning 第4章"
     - "<h1 style=\"text-align: center;\">『ゼロから作る Deep Learning』第4章 勉強メモ(最低限)</h1><h2>損失関数</h2><p>ニューラルネットワークの性能の&ldquo;悪さ&rdquo;を示す指標で一般には、2
@@ -4672,6 +4742,7 @@ articles:
       分かる。</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-06-06 04:08:16.369075'
     - '2019-08-18 13:34:18.21605'
+    - 
   - - 163
     - MuuMuuDomain + Route53 独自ドメイン取得＆IPと紐付け
     - "<h1 style=\"text-align: center;\">MuuMuuDomain + Route53</h1><p><br></p><h2>現状:
@@ -4717,6 +4788,7 @@ articles:
       </span></p><p><br></p><p><br></p><p><br></p>"
     - '2019-06-10 04:48:30.35856'
     - '2019-06-10 05:47:51.934507'
+    - 
   - - 164
     - Amazon EC2のタイムゾーンを日本時間に変更する方法
     - "<h1 itemprop=\"headline\">Amazon EC2のタイムゾーンを日本時間に変更する方法<p>Tokyoリージョンでインスタンスを立ち上げたものの、タイムゾーンが初期設定でUTCになっていたので、日本時間に変更する方法。<br>確認するとこんな感じ。</p><pre>$
@@ -4742,6 +4814,7 @@ articles:
       日本時間になってるかを確認</h2><pre>$ date\r\n2019年  6月 13日 木曜日 16:22:53 JST</pre>"
     - '2019-06-13 07:25:19.446024'
     - '2019-06-13 07:30:04.837476'
+    - 
   - - 165
     - EC2にHeroku CLI を導入
     - "<h1 style=\"text-align: center;\">EC2にHeroku CLI を導入</h1><p><br></p><pre><code>$
@@ -4753,6 +4826,7 @@ articles:
       npm i -g heroku</pre><p><span style=\"font-size: 60px;\">完</span></p>"
     - '2019-06-15 10:10:55.748712'
     - '2019-06-15 10:14:21.396101'
+    - 
   - - 166
     - EC2-ローカル間でのファイル転送
     - "<h1 style=\"text-align: center;\">EC2-ローカル間でのファイル転送</h1><h2><br></h2><h3>目的:
@@ -4770,6 +4844,7 @@ articles:
       title=\"\">$ chmod 777 myApp/</pre><p><br></p><h1>まとめ</h1><p>scpコマンド便利、ありがたや。</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-06-15 11:05:53.035518'
     - '2019-06-16 09:53:56.851012'
+    - 
   - - 167
     - Herokuにあげてるアプリをクローンしたい
     - "<h1 style=\"text-align: center;\"><span style=\"font-size: 48px;\">Heroku にある既存のアプリを
@@ -4798,6 +4873,7 @@ articles:
       URL:        https://hoge-fuga-98765.herokuapp.com/</pre><p><br></p><p><br></p>"
     - '2019-06-15 11:44:15.787108'
     - '2019-06-15 11:48:16.278988'
+    - 
   - - 168
     - 'scpコマンド: ローカルのデータベースをEC2データベースにダンプしてロード'
     - "<h1 style=\"text-align: center;\">scpを使ってローカルDBをEC2にダンプ</h1><p><br></p><h3>環境</h3><p>Rails
@@ -4822,6 +4898,7 @@ articles:
       development環境のDBに読み込む</pre><p>scpはディレクトリごとアップロードしたい時は -rをつける</p><p><br></p><h1>最後に</h1><hr><p>scpコマンドを使うのは、いつもローカルからです。</p><p>多分初心者は、わけわからなくなるかもしれませんが、アップロード・ダウンロードどちらもローカルからしかscpコマンドは使わないので、覚えておくとわかりやすいと思います。</p><p><br></p><h1><br></h1>"
     - '2019-06-16 09:56:21.074893'
     - '2019-08-06 15:16:18.014476'
+    - 
   - - 169
     - Jupyter Notebookのインストール
     - "<h1 itemprop=\"headline\" style=\"text-align: center;\">Jupyter Notebookのインストール</h1><p><br></p><section
@@ -4835,6 +4912,7 @@ articles:
       style=\"font-size: 60px;\">以上で起動しました。</span></p></section>"
     - '2019-06-17 01:18:49.27233'
     - '2019-06-17 02:09:16.232844'
+    - 
   - - 170
     - ゼロから作る Deep Learning で使用する微分ファイル
     - "<h1 style=\"text-align: center;\">深層学習の微分関数</h1><p>書籍ではch01,ch02,ch03...フォルダと同じ階層にcommonフォルダを作成し、そのフォルダにgradient.pyとして置いてある</p><p>書籍のgithub<a
@@ -4891,6 +4969,7 @@ articles:
       1, 0)\r\n-0.283923537977\r\n(1, 1, 1)\r\n1.0055989324\r\n(1, 1, 2)\r\n-0.366402477684</pre><p>すばらしい！！！</p><p><br></p><p><br></p><p><br></p>"
     - '2019-06-25 09:56:50.821113'
     - '2019-08-18 13:34:35.138894'
+    - 
   - - 171
     - froala ライセンス 裏技
     - "<h1 style=\"text-align: center;\">froala ライセンス 臨時的な裏技</h1><p><br></p><p><code>Ruby
@@ -4912,6 +4991,7 @@ articles:
       18px;\">JODIT editor、BlueGriffonなど、無料のwysiwygエディタもあるし、あまり凝らずに他のサードパーティを使うか、サクッとライセンスを買ったほうがいいかも。</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-01 01:47:23.344967'
     - '2019-07-25 17:06:23.556089'
+    - 
   - - 172
     - EC2でyumがCannot allocate memory
     - '<h1 style="text-align: center;">EC2でyumが「Cannot allocate memory」になる</h1><p><br></p><h2>問題</h2><h3>AWS
@@ -4928,6 +5008,7 @@ articles:
       data-empty="true"><br></p><p>以上の操作がエラーなく終わったら改めて yum update</p><p>無事にアップデートが完了しました。</p><p>仮想メモリの大きさは自由に変更できますので、上記のコマンドの512の部分を適切な数値に変更してお試しください。</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-07-05 09:40:52.377605'
     - '2019-07-26 11:57:05.038001'
+    - 
   - - 173
     - certbotで無料でHTTPS化
     - "<h1 style=\"text-align: center;\">certbotで無料でHTTPS化</h1><p><br></p><p><img
@@ -5034,6 +5115,7 @@ articles:
       rgb(97, 189, 109);\">}</span></pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-09 04:40:28.641605'
     - '2020-01-09 20:26:48.440967'
+    - 
   - - 174
     - AWSのインフラ構成図を書く
     - '<h1 style="text-align: center;">AWSのインフラ構成図</h1><h2>利用ツール</h2><p><a href="https://www.draw.io/"
@@ -5052,6 +5134,7 @@ articles:
       「Export as」 で出力したフォーマットを選ぶ。</p><p>googleDriveやパソコン本体、ブラウザなど好きなところに保存して利用できる</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-07-09 06:40:03.34379'
     - '2019-07-09 07:13:54.463374'
+    - 
   - - 175
     - 'ActiveStorageにて 「Mixed Content: The page at ''<URL>'' was loaded over HTTPS,
       but requested an insecure image ''<URL>''. This content should also be served
@@ -5100,6 +5183,7 @@ articles:
       =&gt; 相対パス でプロトコルに左右されないという形にしました。</p><p>やむをえずって感じです。</p><p><br></p><p><br></p>"
     - '2019-07-11 05:39:12.788444'
     - '2019-07-20 04:35:56.527513'
+    - 
   - - 176
     - ゼロから作る Deep Learning 第5章
     - "<h1 style=\"text-align: center;\">ゼロから作る Deep Learning』第5章 勉強メモ(最低限)</h1><p><br></p><p><br></p><h2>5.1
@@ -5486,6 +5570,7 @@ articles:
       style=\"font-size: 18px;\">数値微分と誤差逆伝播法の結果を比較することで、誤差逆伝播法の実装に誤りがないことを確認できる(勾配確認)。</span></p></li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-14 10:00:58.912403'
     - '2019-08-18 13:34:50.319957'
+    - 
   - - 177
     - "「リダイレクトが多すぎます」でアクセスできない"
     - "<h1 style=\"text-align: center;\">「リダイレクトが多すぎます」でアクセスできない</h1><p><br></p><h3>環境</h3><hr><p>Amazon
@@ -5551,6 +5636,7 @@ articles:
       24px;\">https://qiita.com/chanken/items/b6dc4a896f8cc1615f34</span></a></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-19 09:10:33.324388'
     - '2019-07-19 09:38:51.682138'
+    - 
   - - 178
     - Route53とs3でwww有りから無しにリダイレクト
     - "<h1 style=\"text-align: center;\">Route53とs3でwww有りから無しにリダイレクト</h1><p><br></p><h2>環境</h2><hr><p><span
@@ -5575,6 +5661,7 @@ articles:
       style=\"font-size: 18px;\">例えば、example.comからexample.netに転送したり、www.example.comからexample.netに転送したり、自由にドメインをリダイレクトさせられるので便利！</span></p>"
     - '2019-07-25 13:38:58.770375'
     - '2019-07-25 14:32:44.244278'
+    - 
   - - 179
     - "[Rails5.2] will_paginateでページネーション"
     - "<h1 style=\"text-align: center;\">[Rails5.2] will_paginateでページネーション</h1><p><br></p><h2>環境</h2><hr><p><strong><code>ruby
@@ -5595,6 +5682,7 @@ articles:
       style=\"width: 300px;\" class=\"fr-fic fr-dib\"></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-26 17:06:31.221717'
     - '2019-07-26 17:06:31.224723'
+    - 
   - - 180
     - Rails5.2 アプリに検索機能を実装
     - "<h1 style=\"text-align: center;\">Rails5.2 アプリに検索機能を実装</h1><h2>環境</h2><hr><p><span
@@ -5631,6 +5719,7 @@ articles:
       href=\"https://freesworder.net/rails-search/\"><span style=\"font-size: 18px;\">https://freesworder.net/rails-search/</span></a></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-26 20:12:11.818336'
     - '2019-07-26 20:20:06.3795'
+    - 
   - - 181
     - Rails5.2 ads.txt ファイルの作成
     - "<h1 style=\"text-align: center;\">ads.txt ファイルを作成して設置</h1><p><br></p><p><br></p><h2>環境</h2><hr><p><span
@@ -5675,6 +5764,7 @@ articles:
       txtファイルと接続できます。</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-28 14:34:59.870429'
     - '2019-07-28 15:42:45.802851'
+    - 
   - - 182
     - Route53 nginx 「サブドメインとメインドメインを両方でアクセスできるようにする」(リダイレクト設定も)
     - "<h1 style=\"text-align: center;\">Route53 nginx 「サブドメインとメインドメインを両方でアクセスできるようにする(リダイレクト設定も)」</h1><p><br></p><h2>環境</h2><hr><p>Amazon
@@ -5731,6 +5821,7 @@ articles:
       &nbsp;</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-07-28 17:26:22.672423'
     - '2019-07-28 17:27:50.188079'
+    - 
   - - 183
     - Rails5.2 GoogleSearchConsoleにてサイトマップを追加
     - "<h1 style=\"text-align: center;\">Rails5.2 GoogleSearchConsoleにてサイトマップを自動で追加</h1><p><br></p><h2>環境</h2><hr><p><span
@@ -5823,6 +5914,7 @@ articles:
       all for now!!</span></p><p><br></p>"
     - '2019-07-29 13:24:09.900946'
     - '2020-09-05 18:33:56.037709'
+    - 
   - - 184
     - Bootstrap3でサイドバーの作成
     - '<h1 style="text-align: center;">Bootstrap3でサイドバーの作成</h1><p><br><iframe height="265"
@@ -5842,6 +5934,7 @@ articles:
       という形でも使えるので、レスポンシブなUIをガンガン作っていきましょう！</p>'
     - '2019-07-30 15:21:52.783631'
     - '2019-07-30 15:23:49.104145'
+    - 
   - - 185
     - codepenでコードと動作をシェア
     - '<h1 style="text-align: center;">codepenでコードと動作をシェア</h1><p><br></p><p><a data-wpel-link="external"
@@ -5862,6 +5955,7 @@ articles:
       30px;">これで、簡単にコードや動作を紹介できて、超便利！</span></p><p><span style="font-size: 30px;">これからガンガン使っていく予定です！</span></p><p><br></p><p><br></p><p><br></p>'
     - '2019-07-30 15:38:24.247662'
     - '2019-07-30 17:20:43.894836'
+    - 
   - - 186
     - 'モデル内のクラスメソッドで効率化(例: 記事が多い順にタグを取得) Rails5.2'
     - "<h1 style=\"text-align: center;\">モデル内のクラスメソッドで効率化 Rails5.2</h1><p><br></p><p><br></p><p>例えば、tagテーブルとarticlesテーブルが存在し、以下のような構造であったとする</p><p>(schema.rb)</p><pre>ActiveRecord::Schema.define(version:
@@ -5912,6 +6006,7 @@ articles:
       style=\"font-size: 30px;\">何回も使うものは定義は1回で済ませる努力をしよう！！</span></p>"
     - '2019-07-30 16:15:19.455931'
     - '2019-07-30 16:15:19.455931'
+    - 
   - - 187
     - お名前.com とRoute53 独自ドメイン取得と設定
     - '<h2>対象</h2><hr><h2>http://[ElasticIP] で公開しているが,独自ドメインでアクセスできるようにしたい人</h2><p><br></p><h2>必要なもの</h2><hr><p>お名前ドットコムのドメイン</p><p>AWS</p><ul><li>EC2インスタンス</li><li>ElasticIP</li><li>route53</li></ul><p><br></p><h2>手順</h2><hr><h2>1.
@@ -5941,6 +6036,7 @@ articles:
       dig <a href="//www.example.com"></a>example.com</span></pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-08-01 19:19:39.753663'
     - '2019-08-05 10:26:45.048389'
+    - 
   - - 188
     - A8.netの基本情報
     - "<pre><span style=\"color: rgb(84, 172, 210);\"><span style=\"font-size: 36px;\">目次</span></span><a
@@ -5973,6 +6069,7 @@ articles:
       alt=\"\" class=\"fr-fic fr-dii\"></p><footer><br></footer>"
     - '2019-08-02 16:28:27.943373'
     - '2019-08-02 16:42:35.216764'
+    - 
   - - 189
     - 'Rails: SEO ページタイトルをページごとに設定'
     - "<h1 style=\"text-align: center;\">Rails: ページタイトルをページごとに設定</h1><p><br></p><pre><span
@@ -6002,6 +6099,7 @@ articles:
       fr-deletable fr-emoticon-img\" style=\"background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f600.svg);\">&nbsp;</span>&nbsp;</span></p><p><br></p>"
     - '2019-08-04 13:31:11.471201'
     - '2019-08-04 13:42:32.280192'
+    - 
   - - 190
     - froala「couldn't find file 'third_party/xxxxxxxx.min.js' with type 'application/javascript'!」
     - "<h1 style=\"text-align: center;\">「couldn&#39;t find file &#39;third_party/xxxxxxxx.min.js&#39;
@@ -6071,6 +6169,7 @@ articles:
       style=\"font-size: 30px;\">That&#39;s all for now!!</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-08-05 18:19:03.921809'
     - '2019-08-05 19:10:25.380821'
+    - 
   - - 192
     - 'Rails: Mathjax  is not reflected after page transition'
     - "<h1 style=\"text-align: center;\">Mathjax &nbsp;is not reflected after page
@@ -6101,6 +6200,7 @@ articles:
       all for now!!</span></p><p><br></p><p><br></p><p><br></p>"
     - '2019-08-05 18:37:21.121255'
     - '2019-08-09 18:05:55.406202'
+    - 
   - - 193
     - 'Mathjax: Write a formula'
     - "<h1 style=\"text-align: center;\">Mathjax: &nbsp;Write a formula</h1><p><br></p><p>DOCUMENT
@@ -6129,6 +6229,7 @@ articles:
       style=\"font-size: 30px;\">That&#39;s all for now!!</span></p>"
     - '2019-08-05 20:36:04.326625'
     - '2019-08-13 17:52:22.981697'
+    - 
   - - 194
     - 'scpコマンド: EC2仮想サーバーにアップロード・ダウンロード'
     - "<h1 style=\"text-align: center;\">scpを使ってEC2仮想サーバーのファイルをローカルにダンプ</h1><p><br></p><p><br></p><h2>SCPコマンド</h2><hr><p>ローカルからリモートにファイルをアップロードしたり、逆にリモートからローカルにダウンロードするときに使う。</p><p><br></p><h2>基本的な使い方</h2><hr><div
@@ -6144,6 +6245,7 @@ articles:
       style=\"font-size: 30px;\">便利なので、ガンガン使っていこう！！</span></p><p><br></p></div>"
     - '2019-08-06 14:47:54.386068'
     - '2019-08-06 14:47:54.39727'
+    - 
   - - 195
     - ゼロから作る Deep Learning 第6章
     - "<h1 style=\"text-align: center;\" title=\"Page 185\">ゼロから作る Deep Learning』第6章</h1><p
@@ -6837,6 +6939,7 @@ articles:
       進めるのが効率の良い方法である。</p><p><br></p></div></div></div></div></div>"
     - '2019-08-06 17:27:54.365035'
     - '2019-08-18 13:35:17.801947'
+    - 
   - - 196
     - ゼロから作る Deep Learning 第7章
     - "<h1 style=\"text-align: center;\">畳み込みニューラルネットワーク</h1><p><br></p><p>この章では、CNN
@@ -7107,6 +7210,7 @@ articles:
       style=\"color: rgb(41, 105, 176);\"><u>ビッグデータと GPU が大きく貢献</u></span>している。</li></ul><p><br></p><p><br></p><p><br></p>"
     - '2019-08-13 18:27:22.014765'
     - '2019-08-18 13:35:27.195342'
+    - 
   - - 197
     - ゼロから作る Deep Learning 第8章
     - "<h1 style=\"text-align: center;\">ゼロから作る Deep Learning 第8章</h1><p><br></p><h2>ネットワークをより深く</h2><hr><p>CNNのネットワークを深くしたものをVGGという</p><ul><li>3
@@ -7330,6 +7434,7 @@ articles:
       484 &ndash; 489.</p>"
     - '2019-08-18 14:49:33.688466'
     - '2019-08-20 19:05:55.742312'
+    - 
   - - 198
     - R のインストール
     - '<h1 style="text-align: center;">Rのインストール</h1><p><br></p><h2>Rとは</h2><hr><p><strong>R言語</strong>（あーるげんご）はオープンソース・フリーソフトウェアの統計解析向けのプログラミング言語及びその開発実行環境である。</p><p>(wikipedia引用)</p><p>統計学者が使う言語で、データの可視化に優れている。</p><p><br></p><h2>手順</h2><hr><p><br></p><p><a
@@ -7341,6 +7446,7 @@ articles:
       style="width: 500px;" class="fr-fic fr-dib fr-fil"></p><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-08-25 12:58:35.577934'
     - '2019-08-25 13:05:59.95745'
+    - 
   - - 199
     - R 入門
     - "<h1 style=\"text-align: center;\">R 入門</h1><p><br></p><h2>目次</h2><pre><span
@@ -7415,6 +7521,7 @@ articles:
       class(a)\r\n[1] &quot;list&quot;</pre><p><br></p><p><br></p><p>以上！！</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-08-25 14:13:47.300382'
     - '2019-08-25 14:16:21.35585'
+    - 
   - - 200
     - Rails ページ遷移でGoogle Adsenseが表示されない
     - "<h1 style=\"text-align: center;\">ページ遷移でGoogle Adsenseが表示されない</h1><p><br></p><h2>原因</h2><hr><p>Rails5では、ルートページではgoogleAdsenseが表示されるのに、<span
@@ -7442,6 +7549,7 @@ articles:
       というミドルウエアを新しく追加し、オリジン以外のサーバー(今回はgoogleAdsenseサーバー)からデータを取得してクロスドメイン通信を許可して広告を表示させました。</p><p><br></p><p><br></p>"
     - '2019-09-06 11:49:42.574403'
     - '2019-09-06 11:49:42.574403'
+    - 
   - - 201
     - scikitのインストール
     - "<h1 style=\"text-align: center;\">scikitのインストール</h1><p><br></p><h2>scikit-learnについて解説</h2><hr><p><strong>scikit-learn</strong>
@@ -7462,6 +7570,7 @@ articles:
                  0.21.3\r\n.\r\n.</pre>"
     - '2019-09-09 14:05:04.671202'
     - '2019-09-09 14:05:04.68577'
+    - 
   - - 202
     - pandas 複数のcsvファイルの読み込み
     - "<h1 style=\"text-align: center;\">pandas 複数のcsvファイルの読み込み</h1><p><br></p><h2>実現したいこと</h2><hr><p>私の大学の8つの学科の成績データを使用してます。8つのExelファイルを合体させて1つのExelファイルにまとめることが目的です。</p><p>なおpandasの関数を使い、csvファイルでもxlsxファイルでも問題なく合体できます。</p><p><br></p><h2>環境</h2><hr><p>Python
@@ -7501,6 +7610,7 @@ articles:
       join, 全てのカラムを表示させたいならouter joinを指定する。</p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-22 19:55:23.797124'
     - '2019-09-22 19:55:23.827022'
+    - 
   - - 203
     - pandas concat関数 ドキュメント
     - "<h1 itemprop=\"name headline\" style=\"text-align: center;\">pandas concat関数</h1><p><br></p><p>Python
@@ -7567,6 +7677,7 @@ articles:
       の中のconcat関数を日本語でまとめたものです。</p>"
     - '2019-09-22 20:30:04.117121'
     - '2019-09-22 20:32:56.406278'
+    - 
   - - 204
     - pandas 正規化
     - "<h1 style=\"text-align: center;\">pandas 正規化</h1><h2>実現したいこと</h2><hr><p>Exelファイルを正規化する。(筆者は多重回帰分析を行う)</p><p><br></p><h2>正規化のメリット(多重回帰分析)</h2><hr><p>正規化をすると、値が意味する絶対量を相対量に変換するため、単位が関係なくなり、各因子の係数(偏回帰係数)が、「寄与率」のように比較できる。</p><p>また、私の場合、大学生の期末試験のデータを扱ったりしましたが、試験の満点が各学科で違ったりしても、正規化することで他の学科との平等な生徒の比較ができるようになる。</p><p><br></p><h2>正規化の式</h2><hr><h3>最小値0、最大値1に正規化</h3><p>Min-Max
@@ -7623,6 +7734,7 @@ articles:
       type(scaler.fit_transform(dfTest))\r\n&lt;class &#39;numpy.ndarray&#39;&gt;</pre><p><br></p><p>たとえ、全ての列を正規化したくても、DataFrame.locなどを使って代入する</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-23 18:42:01.274077'
     - '2019-12-03 20:21:24.102703'
+    - 
   - - 205
     - pandas データフレームの行や列を削除
     - "<h1 style=\"text-align: center;\">pandas データフレームの行や列を削除</h1><p><br></p><h2>実現したいこと</h2><hr><p>pandasでデータフレームの行や列を削除する動作を行う。</p><p><br></p><h2>環境</h2><hr><p>python
@@ -7665,6 +7777,7 @@ articles:
        4.0  5.0  6.0</pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-24 15:31:37.233413'
     - '2019-09-24 15:36:10.665748'
+    - 
   - - 206
     - Ruby クイックソート
     - "<h1 style=\"text-align: center;\">Ruby クイックソート</h1><h2>クイックソートとは</h2><hr><p>他のソート法と比べて、一般的に最も高速だといわれているが対象のデータの並びやデータの数によっては必ずしも速いわけではない。また数々の変種がある。
@@ -7736,6 +7849,7 @@ articles:
       skip=\"true\"><br></p><p skip=\"true\">バッチリ！！以上！！！</p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-27 13:14:09.961947'
     - '2019-09-27 13:59:30.983069'
+    - 
   - - 207
     - Ruby バブルソート
     - "<h1 style=\"text-align: center;\">Ruby バブルソート</h1><h2>バブルソートとは</h2><hr><p><strong>バブルソート</strong>
@@ -7762,6 +7876,7 @@ articles:
       441, 452, 456, 544, 590, 593, 867]</code></pre>"
     - '2019-09-27 13:44:37.156489'
     - '2019-09-27 13:44:37.156489'
+    - 
   - - 208
     - Ruby マージソート
     - "<h1 style=\"text-align: center;\">Ruby マージソート</h1><p><br></p><h2>マージソートとは</h2><hr><p><strong>マージソート</strong>は、ソートのアルゴリズムで、既に整列してある複数個の列を1個の列にマージする際に、小さいものから先に新しい列に並べれば、新しい列も整列されている、というボトムアップの分割統治法による。大きい列を多数の列に分割し、そのそれぞれをマージする作業は並列化できる。</p><p>n個のデータを含む配列をソートする場合、最悪計算量O(n
@@ -7822,6 +7937,7 @@ articles:
       += 1<br>i += 1<br>end</p></blockquote><p>この処理は、先ほどの処理から、左側を移動し尽くした場合の処理が抜けただけの処理である。</p><p>マージソートで大事なのは、1度でもマージされたブロックの要素は昇順になっていることである。</p><p>左側を移動し尽くした場合、右側が余るが、すでに余った要素は配列の最後のインデックスまで大きい順で並んであるため、更新する必要はなく、結果は変わらない。</p><p>であれば、無駄な処理を省いた後者のコードを採用した。</p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-27 22:01:12.030286'
     - '2019-09-28 12:43:17.202067'
+    - 
   - - 209
     - Ruby コームソート
     - "<h1 style=\"text-align: center;\">Ruby コームソート</h1><p><br></p><h2>コームソートとは</h2><hr><p><strong>コムソート</strong>（英:
@@ -7889,6 +8005,7 @@ articles:
       703, 765, 803, 806, 900, 914, 958]</code></p><p><br></p><p>バッチリ、コームソートできました！！以上です。</p><p><br></p>"
     - '2019-09-28 14:59:32.298168'
     - '2019-09-28 14:59:32.298168'
+    - 
   - - 210
     - ユークリッドの互除法
     - "<h1 style=\"text-align: center;\">ユークリッドの互除法</h1><p><br></p><h2>ユークリッドの互除法の例</h2><hr><p>ユークリッドの互除法では，以下の<strong>重要な性質</strong>を使って最大公約数の計算を行います。</p><p><strong>重要な性質：</strong></p><p>割り算の等式:
@@ -7913,6 +8030,7 @@ articles:
       style=\"font-size: 24px;\">gcd(a,b) = gcd(b, a%b) の関係が成り立つ</span></em></strong></code></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-09-29 21:01:41.60037'
     - '2019-09-29 21:01:41.60037'
+    - 
   - - 211
     - 素因数分解（試し割り法)
     - "<h1 style=\"text-align: center;\">素因数分解（試し割り法)</h1><p><br></p><h2>試し割り法</h2><hr><p><strong>試し割り法</strong>(ためしわりほう、英:
@@ -7944,6 +8062,7 @@ articles:
       {n}\\)を表し、あえて、平方根を取らないのは、コンピュータによっては意外とsinやcos, ルートの処理は重かったりするからである。</p><p><br></p>"
     - '2019-09-30 13:21:49.341907'
     - '2019-09-30 17:19:11.498987'
+    - 
   - - 212
     - MathJax 表示スタイル
     - "<h1 style=\"text-align: center;\">MathJax 表示スタイル</h1><p><br></p><h2>MathJaxLaTeX</h2><hr><p><strong>MathJax</strong>
@@ -7967,6 +8086,7 @@ articles:
       href=\"http://if1.tech/g-mathjax\">http://if1.tech/g-mathjax</a></p><p>めちゃくちゃ便利。</p><p>唯一の問題はアプー！がめちゃくちゃ邪魔なこと。</p>"
     - '2019-09-30 14:31:11.082762'
     - '2019-09-30 15:19:36.165924'
+    - 
   - - 213
     - Kaggle 住宅価格予測 (回帰分析)
     - '<h1 style="text-align: center;">Kaggle 住宅価格予測 (回帰分析)</h1><p><br></p><h2>環境</h2><hr><p><u>python
@@ -7980,6 +8100,7 @@ articles:
       notebookが表示されてなかったらリロードしてください)</p><script src="https://gist.github.com/NakajiTatsuya/fccc8d433e1abdd8153574050b99bddb.js"></script><h2>最後に</h2><hr><p>スコアはどうやら、対数平均二乗誤差（RMSLE)のようなので、この値が0に近ければちかほど、良いモデルが作れたということになります。</p><p>変数を正規化したり、回帰分析でしようする変数の数をもっと増やすなど、改善の余地はまだまだありますが、今回の提出結果は4453位/4612でした。</p><p><br></p><p><br></p><p><br></p>'
     - '2019-10-05 17:47:45.367511'
     - '2019-10-10 19:00:21.586277'
+    - 
   - - 214
     - jupyter_contrib_nbextensionsのインストール
     - '<h1 style="text-align: center;">jupyter_contrib_nbextensions</h1><p><br></p><h2>jupyter_contrib_nbextensions</h2><hr><p>jupyterの拡張機能で、目次の自動生成やコード補完、スニペットの登録などをできるようになります。(<span
@@ -8004,6 +8125,7 @@ articles:
       href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html#install-the-python-package">公式ドキュメント</a></p><p><br></p><p><br></p><p><br></p><p><br></p>'
     - '2019-10-08 18:33:05.83606'
     - '2019-10-08 18:33:05.83606'
+    - 
   - - 215
     - froala scriptが取り除かれてしまう問題を解決
     - "<h1 style=\"text-align: center;\">froala scriptが取り除かれてしまう問題を解決</h1><p><br></p><h2>デフォルト仕様</h2><hr><p>froalaエディターでは&lt;style&gt;,
@@ -8022,6 +8144,7 @@ articles:
       style=\"color: rgb(41, 105, 176);\">＊＊＊この方法は、公式の開発者グループの推奨です</span></p><p><br></p><h2>最後に</h2><hr><p>臨時解決策で、解決策1、長期使用を考えて解決策2って感じですね。</p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2019-10-08 19:42:43.268154'
     - '2019-10-08 19:42:43.268154'
+    - 
   - - 216
     - Google Collaboratory で kaggle を扱う
     - "<h1 style=\"text-align: center;\">Google Collaboratory で kaggle を扱う</h1><p><br></p><h2>Google
@@ -8081,6 +8204,7 @@ articles:
       open(&#39;Y_predict.pickle&#39;, &#39;wb&#39;))</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2020-01-09 22:25:10.527989'
     - '2020-01-09 22:25:10.527989'
+    - 
   - - 217
     - How to prevent Google Colaboratory from disconnecting
     - "<h1 style=\"text-align: center;\">prevent Google Colaboratory from disconnecting</h1><p><br></p><p><br></p><h2>Cause</h2><hr><div
@@ -8104,6 +8228,7 @@ articles:
       always caused by session out or run time out.</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2020-01-13 19:14:10.594727'
     - '2020-01-13 19:14:10.594727'
+    - 
   - - 218
     - Google Cloud SDKインストール [Mac]
     - "<h2 style=\"text-align: center;\">Google Cloud SDKインストール [MAC]</h2><p><br></p><p><br></p><h2>Google
@@ -8268,6 +8393,7 @@ articles:
       245.0.0\r\n\r\n</pre><p><br></p><h2>まとめ</h2><hr><p>以上で、Google Cloud SDKのインストール完了です。</p><p>GoogleCloudPlatformを使う上で、とても便利で、gcloudコマンドを通じてsshやインスタンスの作成など、多くのことがCLIでできてしまいます。</p><p>サクッとやってGCPを有効活用できるようになりましょう。</p><p><br></p><p><br></p>"
     - '2020-01-22 18:06:40.265761'
     - '2020-01-22 18:06:40.265761'
+    - 
   - - 219
     - Google Cloud Platform (GCP) の deep learnig VM で機械学習
     - "<h1 style=\"text-align: center;\">Google Cloud Platform の deep learnig VM で機械学習</h1><p><br></p><h2>Google
@@ -8345,6 +8471,7 @@ articles:
       style=\"width: 600px;\" class=\"fr-fic fr-dib fr-fil\"></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
     - '2020-01-24 23:30:41.189608'
     - '2020-01-26 22:17:11.431729'
+    - 
   - - 220
     - python/jupyterでLINE Notify
     - "<h1 style=\"text-align: center;\">python/jupyterでLINE通知</h1><h2><br>概要</h2><hr><div
@@ -8429,6 +8556,7 @@ articles:
       style=\"color: rgb(163, 143, 132);\">[2] <a href=\"https://qiita.com/moriita/items/5b199ac6b14ceaa4f7c9\">https://qiita.com/moriita/items/5b199ac6b14ceaa4f7c9</a></span></p><p><br></p><p><br></p>"
     - '2020-01-27 20:17:34.446531'
     - '2020-01-27 21:35:26.891357'
+    - 
   - - 221
     - gsutilでGCS (Google Cloud Storage)を操作
     - '<h1 style="text-align: center;">GCS (Google Cloud Storage)の操作手順</h1><p><br></p><h2>概要</h2><hr><div
@@ -8451,6 +8579,7 @@ articles:
       href="https://cloud.google.com/storage/docs/using-object-versioning?hl=ja&_ga=2.192925610.-1848954084.1578919231#list">https://cloud.google.com/storage/docs/using-object-versioning?hl=ja&amp;_ga=2.192925610.-1848954084.1578919231#list</a></div><p><br></p>'
     - '2020-02-12 16:41:47.82949'
     - '2020-02-12 16:42:46.433272'
+    - 
   - - 222
     - GCSを直接データフレームで操作
     - "<h1 style=\"text-align: center;\">pythonからGCSを直接操作</h1><p><br></p><h2>概要</h2><hr><div
@@ -8503,6 +8632,7 @@ articles:
       style=\"background-color:#FFFFCC;\"><p>ここで注目するのは、bucket.list_blobs()で<strong>全ファイル</strong>を読み込み、pythonのfnmatchで<strong>篩(ふるい)に掛ける</strong>という仕様です。</p><p>一旦全ファイルを読み込むのは効率的ではないですが、google-cloud-storageがパターン検索に対応するまでは、現状この手法が良さそうです。</p></div><p><br></p><p><br></p><p><br></p>"
     - '2020-02-12 16:42:54.695079'
     - '2020-02-12 17:53:07.92865'
+    - 
   - - 223
     - Enable ImageFolder to return image path in Pytorch
     - "<h1 style=\"text-align: center;\">torchvision.datasets.ImageFolder</h1><p><br></p><nav
@@ -8579,6 +8709,7 @@ articles:
       \"block\"\r\n\t});\r\n\t$(\"a\").css(\r\n\t{\r\n\t\t\"text-decoration\": \"none\"\r\n\t});\r\n\r\n</script>"
     - '2020-03-01 17:35:07.069917'
     - '2020-03-01 17:40:57.536025'
+    - 
   - - 224
     - Devide data into train and validation in Pytorch
     - "<h1 style=\"text-align: center;\">Devide data into train and validation in
@@ -8625,6 +8756,7 @@ articles:
       \"block\"\r\n\t});\r\n\t$(\"a\").css(\r\n\t{\r\n\t\t\"text-decoration\": \"none\"\r\n\t});\r\n\r\n</script>"
     - '2020-03-01 18:15:00.580266'
     - '2020-03-01 19:36:57.873964'
+    - 
   - - 225
     - 'RuntimeError: CUDA error: device-side assert triggered'
     - "<h1 style=\"text-align: center;\">RuntimeError: CUDA error: device-side assert
@@ -8702,6 +8834,7 @@ articles:
       \"block\"\r\n\t});\r\n\t$(\"a\").css(\r\n\t{\r\n\t\t\"text-decoration\": \"none\"\r\n\t});\r\n\r\n</script>"
     - '2020-03-01 19:06:03.288743'
     - '2020-03-01 19:06:03.288743'
+    - 
   - - 226
     - coursera  ニューラルネットワークとディープラーニング
     - "<h1 style=\"text-align: center;\">ニューラルネットワークとディープラーニング</h1><p><br></p><nav
@@ -8974,6 +9107,7 @@ articles:
       none;\">https://www.coursera.org/learn/neural-networks-deep-learning/</a></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p></dd></dl></dd></dl></dd></dl>"
     - '2020-03-21 10:00:39.608817'
     - '2020-06-20 20:02:27.277651'
+    - 
   - - 227
     - 'Coursera ディープニューラルネットワークの改善: ハイパーパラメータのチューニング, 正則化, 最適化'
     - "<h1 style=\"text-align: center;\">ディープニューラルネットワークの改善</h1><p><br></p><nav class=\"mkj\"
@@ -9225,6 +9359,7 @@ articles:
       id=\"section4\">本講座について</h2><hr><p>今回受講したのはこちらのコースです。</p><p><a href=\"https://www.coursera.org/learn/deep-neural-network\">https://www.coursera.org/learn/deep-neural-network</a></p><p>実装する以前に、ニューラルネットワークの知識が不十分である人向けの内容であると感じました。</p><p>きちんとニューラルネットワークに関して未学習や過学習、その他勾配降下や誤差関数をどのようなものか理解していない人は、コリラのコースでしっかり学習と内容の定着ができるでのおすすめです。</p><p><br></p><p><br></p><p><br></p>"
     - '2020-04-05 14:12:34.719561'
     - '2020-05-02 21:03:33.519122'
+    - 
   - - 228
     - coursera 機械学習プロジェクトの構築
     - '<h1 style="text-align: center;">ニューラルネットワークとディープラーニング</h1><p><br></p><nav class="mkj"
@@ -9405,6 +9540,7 @@ articles:
       href="https://www.coursera.org/learn/machine-learning-projects/">https://www.coursera.org/learn/machine-learning-projects/</a></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p></dd></dl>'
     - '2020-04-29 22:03:44.419963'
     - '2020-06-20 19:27:04.988005'
+    - 
   - - 229
     - Coursera Convolutional Neural Networks
     - '<h1 style="text-align: center;">Convolutional Neural Network</h1><p><br></p><nav
@@ -9874,6 +10010,7 @@ articles:
       style="color: rgb(184, 49, 47);"><u><strong>ここまで綺麗に多くの情報がまとまった学習コンテンツは他にない</strong></u></span>と思うので、ぜひ学習にこのコースを利用することをお勧めします。<br>ちなみに筆者は今までいくつか深層学習の書籍を使って勉強してきましたが、間違いなく一番わかりやすくて多くの情報が学習できました。<br><br></p>'
     - '2020-05-05 19:57:30.055062'
     - '2020-06-20 19:29:12.912858'
+    - 
   - - 230
     - Coursera Sequence Models
     - '<h1 style="text-align: center;">Coursera Sequence Models</h1><p><br></p><nav
@@ -10129,6 +10266,7 @@ articles:
       href="https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-recurrent-neural-networks">https://stanford.edu/~shervine/l/ja/teaching/cs-230/cheatsheet-recurrent-neural-networks</a></p><p><br></p>'
     - '2020-06-20 19:59:30.16443'
     - '2020-10-06 07:49:53.07488'
+    - 
   - - 231
     - EC2 ディスクサイズ(EBSボリュームサイズ)の増量
     - "<h1 style=\"text-align: center;\">EC2 ディスクサイズの増量</h1><p><br></p><nav class=\"mkj\"
@@ -10201,6 +10339,7 @@ articles:
       href=\"https://qiita.com/takahashi-kazuki/items/23a5a7c62fc086d51909\">&nbsp;https://qiita.com/takahashi-kazuki/items/23a5a7c62fc086d51909</a></p><p><br></p><p><br></p>"
     - '2020-08-01 23:22:53.881631'
     - '2020-08-02 01:53:35.428467'
+    - 
   - - 232
     - go言語 メリットとデメリット
     - "<h1 style=\"text-align: center;\">Goのメリット・デメリット</h1><p><br></p><nav class=\"mkj\"
@@ -10237,7 +10376,8 @@ articles:
       4px solid #672F86;\">Go言語使用の検討</span></h2><p dir=\"ltr\">静的型付け、文法がシンプルでありパフォーマンスが良いため、チーム開発に向いています。</p><p
       dir=\"ltr\">オブジェクト指向言語に慣れているとGoのデメリットを嫌う傾向もあるので、メリットデメリットを知った上で、採用を検討してみてください。</p><p><br></p>"
     - '2020-10-11 00:39:36.26595'
-    - '2020-10-20 09:29:58.717603'
+    - '2020-11-07 20:15:00.977054'
+    - go言語のメリットは、シンプルかつ高パフォーマンスで、採用しやすいこと。デメリットは、比較的情報が少ない事と、Go特有の言語設計であるため、人によっては好みに合わないこともあるという事。
   - - 233
     - go言語 fmt.Print関数 fmt.Println関数 fmt.Printf関数の違い
     - "<h1 style=\"text-align: center;\">fmtライブラリの標準出力</h1><nav class=\"mkj\" style=\"border-radius:
@@ -10292,6 +10432,7 @@ articles:
       align=\"left\">ポインタ</td><td align=\"left\">%p</td><td align=\"left\">16進数文字列、先頭に0x</td></tr></tbody></table><p><br></p>"
     - '2020-10-15 22:26:08.96629'
     - '2020-10-31 13:22:49.829449'
+    - 
   - - 234
     - go言語 fmt.Scan関数
     - "<h1 style=\"text-align: center;\">fmt.Scan関数</h1><p dir=\"ltr\"><br></p><h2><span
@@ -10303,6 +10444,7 @@ articles:
         fmt.Scan(&amp;price)\r\n    fmt.Printf(&quot;%d円\\n&quot;, price)\r\n}</pre><p>(出力)</p><p><code>値段&gt;0円</code></p><p><br></p>"
     - '2020-10-15 22:35:27.347037'
     - '2020-10-20 09:30:21.607657'
+    - 
   - - 235
     - go言語 コードの書式を揃える
     - '<h1 dir="ltr" style="text-align: center;">コードの書式を揃える</h1><p><br></p><h2><span
@@ -10315,6 +10457,7 @@ articles:
       dir="ltr">-s オプションがない</p></li></ul><p><br></p>'
     - '2020-10-15 22:48:54.132555'
     - '2020-10-15 22:48:54.132555'
+    - 
   - - 236
     - go言語 静的解析ツール
     - "<h1 style=\"text-align: center;\">コードの品質を保つ</h1><p><br></p><h2>静的解析ツール&nbsp;</h2><table><tbody><tr><td
@@ -10343,6 +10486,7 @@ articles:
       dir=\"ltr\"><p dir=\"ltr\">設定ファイルを書けばreviewdogが勝手にPRにコメントをくれる</p></li></ul></li></ul><p><br></p><p><br></p><p><br></p>"
     - '2020-10-15 23:03:22.368305'
     - '2020-10-15 23:09:00.979429'
+    - 
   - - 237
     - go言語 変数と定数
     - "<h1 style=\"text-align: center;\">変数と定数</h1><p><br></p><nav class=\"mkj\" style=\"border-radius:
@@ -10466,6 +10610,7 @@ articles:
       201);\">Println</span>(a, b, c, d, e)\r\n}</pre><p>(出力)</p><pre>0 1 1 2 4</pre><p><br></p><p><br></p>"
     - '2020-10-17 12:43:23.945324'
     - '2020-10-20 09:30:33.642882'
+    - 
   - - 238
     - go言語 演算子
     - "<h1 style=\"text-align: center;\">Go 演算子</h1><p><br></p><nav class=\"mkj\"
@@ -10640,6 +10785,7 @@ articles:
       two</code></p><p><br></p>"
     - '2020-10-17 20:17:06.708976'
     - '2020-10-20 09:30:48.718404'
+    - 
   - - 239
     - go言語 制御構文
     - "<h1 style=\"text-align: center;\">制御構文</h1><p><br></p><p><br></p><nav class=\"mkj\"
@@ -10712,6 +10858,7 @@ articles:
         //    }\r\n    //}\r\n}</pre><p><br></p>"
     - '2020-10-18 23:53:02.033386'
     - '2020-10-20 09:31:30.844124'
+    - 
   - - 240
     - go言語 型
     - "<h2 id=\"section\"><span style=\"display: block; padding: 0.5em 1em 0.5em 1em;
@@ -10882,6 +11029,7 @@ articles:
       11}&nbsp;</code></p><p><br></p>"
     - '2020-10-20 09:29:13.141485'
     - '2020-10-25 21:11:32.661199'
+    - 
   - - 241
     - go言語 配列 スライス マップ
     - "<nav class=\"mkj\" style=\"border-radius: 3px; font-weight: 700; line-height:
@@ -11104,6 +11252,7 @@ articles:
       style=\"color: rgb(41, 105, 176);\">%T</span>&quot;, Applicant{})\r\n}</pre><p><br></p>"
     - '2020-10-24 10:43:12.928018'
     - '2020-10-25 13:23:09.380346'
+    - 
   - - 242
     - go言語 関数
     - "<h1 style=\"text-align: center;\">go言語 関数</h1><nav class=\"mkj\" style=\"border-radius:
@@ -11416,6 +11565,7 @@ articles:
       0&nbsp;</code></p><p><code>Name: Tanaka, Age: 40</code></p><p><br></p><p><br></p>"
     - '2020-10-28 23:53:00.515435'
     - '2020-10-31 00:05:56.788964'
+    - 
   - - 243
     - go言語 メソッド
     - "<nav class=\"mkj\" style=\"border-radius: 3px; font-weight: 700; line-height:
@@ -11546,6 +11696,7 @@ articles:
       string&nbsp;</code></p><p><code>64</code></p><p><br></p>"
     - '2020-10-31 11:14:56.897387'
     - '2020-10-31 13:15:14.193141'
+    - 
   - - 244
     - go言語 パッケージ
     - "<nav class=\"mkj\" style=\"border-radius: 3px; font-weight: 700; line-height:
@@ -11662,6 +11813,59 @@ articles:
       #672F86;\">パッケージの初期化</span></h2><p><br></p><p>依存パッケージの初期化</p><ul><li>importしているパッケージリストを出す</li><li>依存関係を解決して依存されてないパッケージから初期化していく</li></ul><p><br></p><p>各パッケージの初期化</p><ul><li>パッケージ変数の初期化する</li><li>init関数の実行を行う</li></ul><p><br></p>"
     - '2020-10-31 16:27:13.345797'
     - '2020-11-07 00:49:24.343684'
+    - 
+  - - 245
+    - Ruby On RailsにてSEOのためのdescriptionを設定
+    - "<nav class=\"mkj\" style=\"border-radius: 3px; font-weight: 700; line-height:
+      1.4; background: rgb(255, 251, 244); padding: 0px; border: 2px solid rgb(248,
+      145, 116); margin-bottom: 2em;\"><h2 style=\"padding: 8px 12px; margin: -1px;
+      background: rgb(248, 145, 116); border: none; font-size: 18px; text-align: center;
+      color: rgb(255, 255, 255);\"><i class=\"fa fa-th-list\"></i> Table of Contents</h2><ol
+      style=\"border-radius: 3px;\"><li><a href=\"#section\" style=\"color: rgb(84,
+      84, 84); padding: 8px 0px; display: block; text-decoration: none;\">descriptionとは？</a></li><li><a
+      href=\"#section2\" style=\"color: rgb(84, 84, 84); padding: 8px 0px; display:
+      block; text-decoration: none;\">Railsでの実装</a></li><li><a href=\"#section3\"
+      style=\"color: rgb(84, 84, 84); padding: 8px 0px; display: block; text-decoration:
+      none;\">最後に</a></li></ol></nav><h2 id=\"section\"><span style=\"display: block;
+      padding: 0.5em 1em 0.5em 1em; background: #f5f5f5; border-left: 4px solid #672F86;\">descriptionとは？</span></h2><p><br></p><p><span
+      style=\"background-color: rgb(255, 255, 102);\">description（ディスクリプション）はwebページの概要を示すテキスト情報</span>のこと。</p><p>Google検索をすると、以下のキャプチャでは、「Go言語
+      メリットとデメリット」がtitleで、「Goのメリット・デメリット. Table of Contents. 6つのメリット; 4つのデメリット; <em>Go言語</em>使用の検討.
+      <em>Go言語</em>のメリット6つ. <em>Go言語</em>のメリット1：初心者でも ...」がdescriptionである。</p><p><img
+      src=\"https://s3-ap-northeast-1.amazonaws.com/dragonarrow/uploads%2F1604769977701-1604769977701.png\"
+      style=\"width: 600px;\" class=\"fr-fic fr-dib fr-fil\"></p><p><br></p><p>description（ディスクリプション）はhead内に
+      <code>&lt;meta name=&quot;description&quot; content=&quot;◯◯&quot;&gt;</code>
+      の形で記載するため「meta description(メタディスクリプション)」とも呼ばれる。</p><p><span style=\"background-color:
+      rgb(255, 255, 102);\">webページの概要を簡潔にまとめたテキストを記載することで、ユーザーに理解されやすいwebページになり、流入数の増加が見込めます</span>。</p><p>一方、今のところdescriptionはほとんど検索結果のランキング付けに作用しないと言われています。</p><p>ですが、タイトルの真下に表示されるテキストなので確実にユーザーの目に触れます。</p><p><br></p><h2
+      id=\"section2\"><span style=\"display: block; padding: 0.5em 1em 0.5em 1em;
+      background: #f5f5f5; border-left: 4px solid #672F86;\">Railsでの実装</span></h2><p><br></p><p>まずはじめに、「meta-tags」というgemを使ったやり方をネットの記事で目にしますが、個人的には、この程度のことはサードパーティに頼らずに独自で実装するのをお勧めします。(サードパーティを多用するとメンテナンスが大変なので)</p><p><br></p><h3>1.
+      application.html.erbにて、meta descriptionを追加</h3><p><br></p><p>html_description
+      は、単なるパラメータ名なので、任意の名前で良い</p><p>コードを解説すると、if文にて、<code>html_description</code>
+      というパラメータが存在する場合は、meta descriptionにそのパラメータを設定するという処理である。</p><p><br></p><p>(app/views/layouts/application.html.erb)</p><pre><span
+      style=\"color: rgb(250, 197, 28);\">&lt;!DOCTYPE html&gt;</span>\r\n<span style=\"color:
+      rgb(250, 197, 28);\">&lt;html&gt;</span>\r\n  <span style=\"color: rgb(250,
+      197, 28);\">&lt;head&gt;</span>\r\n    <span style=\"color: rgb(250, 197, 28);\">&lt;title&gt;</span>xxxxxxxxx<span
+      style=\"color: rgb(250, 197, 28);\">&lt;/title&gt;</span>\r\n    <span style=\"color:
+      rgb(163, 143, 132);\">&lt;!--ここから--&gt;</span>\r\n    &lt;% <span style=\"color:
+      rgb(243, 121, 52);\">if</span> content_for?(:html_description) %&gt;\r\n      <span
+      style=\"color: rgb(250, 197, 28);\">&lt;meta</span> name=<span style=\"color:
+      rgb(65, 168, 95);\">&quot;description&quot;</span> content=&quot;&lt;%= <span
+      style=\"color: rgb(243, 121, 52);\">yield</span>(:html_description) %&gt;&quot;<span
+      style=\"color: rgb(250, 197, 28);\">&gt;</span>\r\n    &lt;% end %&gt;\r\n    <span
+      style=\"color: rgb(163, 143, 132);\">&lt;!--ここまで追加--&gt;</span>\r\n  ...\r\n
+      \ <span style=\"color: rgb(250, 197, 28);\">&lt;head&gt;</span>\r\n<span style=\"color:
+      rgb(250, 197, 28);\">&lt;/html&gt;</span></pre><p><br></p><h3>2. viewファイルにて、パラメータを渡す</h3><p><br></p><p>筆者の場合だと、記事一覧ページにて、meta
+      descriptionを設定したかったので、app/views/articles/show.html.erb が該当するビューファイルであった。自分がmeta
+      descriptionを設定したい画面にてビューファイルを選択する</p><p><br></p><p>一行目に以下を記載する</p><pre>&lt;%
+      content_for(:html_description) { <span style=\"color: rgb(65, 168, 95);\">&quot;description!&quot;</span>
+      } %&gt;</pre><p>&quot;description!&quot;をデータベースの値にすれば、動的なタイトル設定になる。</p><p><br></p><p>Postテーブルのdescriptionカラムの値を動的にタイトルに設定する例</p><p>@post.description
+      が空の場合は、metadescriptionタグは生成されない</p><pre>&lt;% content_for(:html_description)
+      { @post.description } %&gt;</pre><p><br></p><p>以上で完成!</p><p>設定したら、HTMLのソースをブラウザから確認してみよう。</p><p><br></p><h2
+      id=\"section2\"><span style=\"display: block; padding: 0.5em 1em 0.5em 1em;
+      background: #f5f5f5; border-left: 4px solid #672F86;\">最後に</span></h2><p><br></p><p>descriptionタグ以上に、titleタグはSEOにて超重要です。</p><p>Railsでの設定方法の記事を書いているので、titleタグをまだ設定していない人は、最優先で設定しましょう。</p><p><br></p><p><a
+      href=\"http://dragonarrow.work/articles/189\">SEO対策 Railsにて、タイトルタグを設定</a></p>"
+    - '2020-11-08 02:59:49.137995'
+    - '2020-11-08 03:05:16.658643'
+    - meta descriptionタグはページの概要を表す情報であるため、SEOのために設定すべき。Railsにてgemを使わずに動的なタイトル設定を行う方法をレクチャーする。
 
 ---
 articles_tags:
@@ -11985,6 +12189,8 @@ articles_tags:
     - 29
   - - 244
     - 29
+  - - 245
+    - 14
 
 ---
 tags:
