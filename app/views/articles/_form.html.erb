@@ -46,6 +46,7 @@
     heightMin: 500,
     heightMax: 1000,
     imageUploadToS3: <%= @aws_data.to_json.html_safe %>,
+    htmlRemoveTags: ['style', 'base'], // scriptは取らない
   })
 });
 </script>
