@@ -37,6 +37,8 @@ gem 'serviceworker-rails'
 gem 'google-analytics-rails'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'sitemap_generator'
+gem 'whenever', require: false
 
 
 group :development, :test do
