@@ -151,6 +151,17 @@ header span{
   color: #008080;
 }
 
+.description {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+
+.summary {
+  padding: 0.5em 0;/*上下の余白*/
+}
+
 li.dropdown:hover {background:#7fffd4;}
 ul.dropdown-menu a:link {color:#000000 !important;}
 ul.dropdown-menu a:visited {color:#696969 !important;}
