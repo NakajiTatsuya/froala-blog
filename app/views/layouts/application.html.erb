@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= content_for?(:html_title) ? yield(:html_title) : "Dragonarrow" %></title>
-    <!-- DOMから取り除く -->
+    <title><%= content_for?(:html_title) ? yield(:html_title) : "Dragon Arrow" %></title>
+    <% if content_for?(:html_description) %>
+      <meta name="description" content="<%= yield(:html_description) %>">
+    <% end %>
     <style>
     </style>
     <%= csrf_meta_tags %>
