@@ -36,3 +36,6 @@
 
 # Ignore sitemap file
 public/sitemap.xml.gz
+
+# Ignore ads.txt file
+public/ads.txt
