@@ -66,7 +66,7 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "dragonarrow_#{Rails.env}"
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = { :host => 'dragonarrow.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'dragonarrow.work' }
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -101,5 +101,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  GA.tracker = ENV['ga_tracker']
+  GA.tracker = Rails.application.credentials.google[:ga_tracker]
 end
