@@ -9,7 +9,7 @@
       </p>
     <% end %>
     <% @articles.each do |article| %>
-    <div class="col-xs-12 text-center">
+    <div class="col-xs-12 text-center" data-turbolinks="false">
       <div class="text-center">
         <h2><%= article.title %></h2>
         <% if article.image.attached? %>
