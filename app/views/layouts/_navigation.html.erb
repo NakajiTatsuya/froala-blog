@@ -15,17 +15,17 @@
       <ul class="nav navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <i class="fa fa-code" aria-hidden="true"> code</i>
+            <i class="fa fa-code" aria-hidden="true"> Language</i>
           </a>
           <ul class="dropdown-menu" role="menu">
-            <% Tag.popular_sort_tags.each.each do |tag| %>
+            <% Tag.popular_sort_tags_of_language.each.each do |tag| %>
               <li role="presentation"><a href=<%= manage_tag_path(id: tag.id) %>><%= tag.name %></a></li>
             <% end %>
           </ul>
         </li>
-        <li><a href="#"><i class="fa fa-heart" aria-hidden="true"> lib</i></a></li>
-        <li><a href="#"><i class="fa fa-columns" aria-hidden="true"> works</i></a></li>
-        <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"> other</i></a></i>
+        <li><a href=<%= manage_tag_path(id: Tag.select(:id).find_by(name: 'AI')) %>><i class="fa fa-heart" aria-hidden="true"> AI (人工知能)</i></a></li>
+        <li><a href="#"><i class="fa fa-columns" aria-hidden="true"> Works (@todo)</i></a></li>
+        <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"> Chat (@todo)</i></a></i>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="nav-item dropdown">
@@ -56,7 +56,7 @@
 <script>
   $('#red_dragon').on({
     'click': function(){
-        alert("</>code をクリックしてタグ検索!");
+        alert("</>Language をクリックしてタグ検索!");
     }
   });
   $('#triger').on({
